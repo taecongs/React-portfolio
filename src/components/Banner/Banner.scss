@@ -1,0 +1,70 @@
+.banner{
+	width:100%;
+	height:auto;
+	position:relative;
+	overflow:hidden !important;
+	padding-left:5rem;    
+}
+
+
+
+/*=========================================================
+    페이지 접속 시 커서 오버 이벤트 정의
+=========================================================*/
+#cover {
+	background:#e7e7e7;
+	z-index:9999999;
+	position:fixed;
+	top:0%;
+	left:-25%;
+	width:150%;
+	height:100%;
+	transform-origin:left;
+}
+
+
+#cover.cover_left {
+	animation:coverleft 2000ms both cubic-bezier(0.77,0,0.175,1);
+}
+
+@keyframes coverleft {
+	0% {
+		transform:scaleX(1) skewX(30deg);
+		transform-origin:left;
+	}
+	100% {
+		transform:scaleX(0) skewX(30deg);
+		transform-origin:left;
+	}
+}
+
+
+// #cover.cover-right {
+// 	animation: coverright 2000ms both cubic-bezier(0.77,0,0.175,1);
+// }
+
+// @keyframes coverright {
+// 	0% {
+// 		transform:scaleX(0) skewX(20deg);
+// 		transform-origin:left;
+// 	}
+// 	100% {
+// 		transform:scaleX(1) skewX(20deg);
+// 		transform-origin:left;
+// 	}
+// }
+
+
+
+
+/*=========================================================
+    
+=========================================================*/
+.intro_sec{
+	width:100%;
+	height:100vh;
+	position:relative;
+	color:#f9f9f9;
+	font-weight:400;
+	background:url('./img/b_background.jpg') left top/100% 100% no-repeat;
+}
