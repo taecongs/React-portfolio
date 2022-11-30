@@ -1,9 +1,26 @@
-import react, { useState } from 'react';
+import { useState } from 'react';
+import {Link} from 'react-router-dom';
 
 import './Sidebar.scss';
 
 
-const Sidebar = (props) => {
+const Sidebar = () => {
+    const $root = document.getElementById('root');
+    // console.log($root);
+
+    const [isNav, setIsNav] = useState(true);
+
+    const hambugerBtn = () => {
+        setIsNav(isNav => !isNav);
+
+        if ( isNav ){
+            $root.classList.add('open');
+            $root.classList.remove('close');
+        } else{
+            $root.classList.remove('open');
+            $root.classList.add('close');
+        }
+    }
 
     return (
         <div>
@@ -22,12 +39,17 @@ const Sidebar = (props) => {
 
             {/* 햄버거 메뉴 */}
             <div className="icon_wrap" style={{ opacity: '1' }}>
-                <div className='icon'></div>
+                <div className={isNav ? 'icon' : 'icon iconAnimation'} onClick={hambugerBtn}></div>
             </div>
 
             <div className='overlay'>
                 <ul className="menu">
-
+                    <li>
+                        {/* <Link to='/'>Portfolio</Link> */}
+                        <h2>About</h2>
+                        <h2>Skill</h2>
+                        <h2>Portfolio</h2>
+                    </li>
                 </ul>
             </div>
         </div>

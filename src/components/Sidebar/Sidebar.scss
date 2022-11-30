@@ -83,10 +83,18 @@
 }
 
 
-.icon {
+.icon, .iconAnimation {
 	position:relative;
 	transition:all 300ms;
 }
+
+
+
+
+.iconAnimation {
+	background:rgba(245,245,245,0);
+}
+
 
 
 /*=========================================================
@@ -98,6 +106,14 @@
 	left:0;
 	bottom:0.4rem;
 	transition:bottom 300ms 300ms cubic-bezier(0.23,1,0.32,1),transform 300ms cubic-bezier(0.23,1,0.32,1);
+}
+
+// 햄버거 메뉴 클릭 시 변경되는 방식 정의
+.iconAnimation:before {
+	bottom:0;
+	transform:rotate(45deg);
+	transition:bottom 300ms cubic-bezier(0.23,1,0.32,1),transform 300ms 300ms cubic-bezier(0.23,1,0.32,1);
+	background:#1B191C;
 }
 
 
@@ -112,8 +128,126 @@
 	transition:top 300ms 300ms cubic-bezier(0.23,1,0.32,1),transform 300ms cubic-bezier(0.23,1,0.32,1);
 }
 
+// 햄버거 메뉴 클릭 시 변경되는 방식 정의
+.iconAnimation:after {
+	top:0;
+	transform:rotate(-45deg);
+	transition:top 300ms cubic-bezier(0.23,1,0.32,1),transform 300ms 300ms cubic-bezier(0.23,1,0.32,1);
+	background: #1B191C;
+}
+
 
 /*=========================================================
     오버레이 정의
 =========================================================*/
+.overlay {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:-100%;
+	left:0;
+	background-color:#1B191C;
+	z-index:100;
+	transform:translate(0,0);
+	overflow:hidden;
+}
 
+.overlay:before {
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin:auto;
+	width:100%;
+	height:0;
+	background:#f9f9f9;
+	border-radius:100%;
+	padding-bottom:100%;
+	transform:scale(0.04) translateY(9999px);
+	overflow:hidden;
+}
+
+
+/*=========================================================
+    오버레이 open 정의
+=========================================================*/
+.open .overlay {
+	top:0;
+}
+
+.open .overlay:before {
+	animation:menu-animation 0.8s ease-in-out forwards;
+}
+
+@keyframes menu-animation {
+	0% {
+		transform:scale(0.04) translatey(300%);
+		opacity:0;
+	}
+	40% {
+		transform:scale(0.04) translatey(0);
+		transition:ease-out;
+	}
+	60% {
+		transform:scale(0.02) translatey(0);
+		opacity:1;
+	}
+	61% {
+		transform:scale(0.04);
+	}
+	99.9% {
+		height:0;
+		padding-bottom:100%;
+		border-radius:100%;
+	}
+	100% {
+		transform:scale(2);
+		height:100%;
+		padding-bottom:0;
+		border-radius:0;
+	}
+}
+
+
+/*=========================================================
+    오버레이 close 정의
+=========================================================*/
+.close .overlay {
+	top:-100%;
+}
+
+
+.close .overlay::before {
+	animation:menu-animation2 0.8s ease-in-out forwards;
+}
+
+
+/*=========================================================
+    오버레이 menu 정의
+=========================================================*/
+.menu {
+	position:fixed;
+	top:45%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:#1B191C;
+	z-index:2;
+}
+
+.menu li {
+	opacity:1;
+	text-align:center;
+	font-size:5vw;
+	font-weight:700;
+	line-height:1.5;
+	text-transform:uppercase;
+	font-family: 'Tenada';
+	transform:translatey(30px);
+	padding:0 20px;
+}
+
+.menu li h2{
+    font-family: 'Tenada';
+}
