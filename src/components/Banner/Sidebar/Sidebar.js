@@ -23,7 +23,7 @@ const Sidebar = () => {
     }
 
     return (
-        <div>
+        <aside>
             {/* 사이드바 정의 */}
             <div className="left_nav" style={{ opacity: '1' }}>
                 {/* <span className="ir_su">왼쪽 네비게이션 부분</span> */}
@@ -52,7 +52,7 @@ const Sidebar = () => {
                     </li>
                 </ul>
             </div>
-        </div>
+        </aside>
     );
 }
 

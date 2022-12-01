@@ -1,0 +1,78 @@
+/*=========================================================
+    헤더 정의
+=========================================================*/
+header{
+    width:100%;
+    height:100px;
+    color:#fff;
+    padding:20px 0;
+    position:fixed;
+    z-index:300;
+    transition: background-color 0.5s;
+
+    display:flex;
+    align-items: center;
+}
+
+
+/*=========================================================
+    헤더 세부 정의
+=========================================================*/
+.header_inner{
+    width:1800px;
+    margin:0 auto;
+    position: relative;
+}
+
+
+/*=========================================================
+    헤더 로고 정의
+=========================================================*/
+.header_logo{
+    display:inline-block;
+    color:#fff;
+    font-size:24px;
+    font-family: 'Tenada';
+}
+
+
+/*=========================================================
+    
+=========================================================*/
+.header_gnb{
+    display:flex;
+    justify-content: space-between;
+    width:750px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.header_gnb li{
+    position: relative;
+    font-family: 'Tenada';
+}
+
+.header_gnb li a{
+    color:#fff;
+    font-size:24px;
+}
+
+
+.header_gnb li.on::after{
+    opacity: 1;
+}
+
+.header_gnb li::after{
+    content:'';
+    opacity: 0.3;
+    display:block;
+    width:45px;
+    height:4px;
+    background:#fff;
+    position: absolute;
+    left:50%;
+    bottom:-10px;
+    transform: translateX(-50%);
+    transition: all 1s;
+}

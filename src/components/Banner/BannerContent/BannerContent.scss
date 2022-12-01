@@ -1,0 +1,140 @@
+/*=========================================================
+    
+=========================================================*/
+article{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    z-index:300;
+    color:#fff;
+}
+
+
+/*=========================================================
+    
+=========================================================*/
+.bannerContant_inner{
+    width:1800px;
+    margin:0 auto;
+    position: relative;    
+}
+
+
+/*=========================================================
+    
+=========================================================*/
+.banner_title{
+    // margin-left: 37px;
+    margin-left:-150px;
+    font-size: 7.5rem;
+    font-family: 'Tenada';   
+    letter-spacing: 10px; 
+}
+
+
+
+.banner_p{
+    margin-left: 37px;    
+    font-size:16px;
+    opacity: 0;
+    font-family: 'S-CoreDream-3Light';
+    letter-spacing: 1px;
+    animation: textup 1s ease-in-out forwards;
+	animation-delay: 10s;
+}
+
+@keyframes textup {
+	0% {
+		transform: translatey(50%);
+		opacity: 0;
+	}
+	100% {
+		transform: translatey(0%);
+		opacity: 1;
+	}
+}
+
+
+
+/*=========================================================
+    
+=========================================================*/
+.banner_bg{
+    position:absolute;
+}
+
+.ball1, .ball2 {
+    display:block;
+	width: 900px;
+	height: 900px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.ball1 {
+	opacity: 0.07;
+	position: relative;
+	right: -1600px;
+	bottom: -800px;
+	animation: ball1-1 3s linear infinite alternate;
+}
+
+
+.ball2 {
+	opacity: 0.15;
+	position: relative;
+	right: -1090px;
+	bottom: -150px;
+	animation: ball1-2 3s linear infinite alternate;
+}
+
+@keyframes ball1-1 {
+	0% {
+		right: -1520px;
+		bottom: -770px;
+	}
+	50% {
+		right: -1560px;
+		bottom: -785px;
+	}
+	100% {
+		right: -1600px;
+		bottom: -800px;
+	}
+}
+
+@keyframes ball1-2 {
+	0% {
+		right: -1090px;
+		bottom: -150px;
+	}
+	50% {
+		right: -1080px;
+		bottom: -135px;
+	}
+	100% {
+		right: -1070px;
+		bottom: -120px;
+	}
+}
+
+
+.banner_detail{
+    position: absolute;
+    left:50%;
+    top:95%;
+    transform: translateX(-50%);
+    font-size:12px;
+    letter-spacing: 1px;
+    color:#fff;
+    text-align: center;
+    font-family: 'S-CoreDream-3Light';
+}
+
+
+
+
+
+
+
