@@ -8,25 +8,25 @@ const Header = () => {
         <header>
             <div className='header_inner'>
                 <h1 className='header_logo'>
-                Front-end Developer
+                    Front-end Developer
                 </h1>
 
                 <nav className='header_nav'>
                     <ul className='header_gnb'>
                         <li className='header_on'>
-                            <a href='#home'>HOME</a>
+                            <a href='#firstPage'>HOME</a>
                         </li>
 
                         <li >
-                            <a href='#about'>ABOUT</a>
+                            <a href='#secondPage'>ABOUT</a>
                         </li>
 
                         <li>
-                            <a href='#'>SKILL</a>
+                            <a href='#thirdPage'>SKILL</a>
                         </li>
-                        
+
                         <li>
-                            <a href='#'>PORTFOLIO</a>
+                            <a href='#fourPage'>PORTFOLIO</a>
                         </li>
                     </ul>
                 </nav>
