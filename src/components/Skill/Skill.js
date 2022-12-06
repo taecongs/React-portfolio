@@ -1,8 +1,21 @@
+import './Skill.scss';
+
+import $skill1 from './img/icon1.png';
+import $skill2 from './img/icon2.png';
+import $skill3 from './img/icon3.png';
+import $skill4 from './img/icon4.png';
+
+
 const Skill = () => {
     return (
-        <div className='custom-section' style={{width: '100%', height: '100vh', fontSize: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <h2>Skill</h2>
-        </div>
+        <section className='custom-section skill_container'>
+            
+            <div className='skillContant_inner'>
+
+
+
+            </div>
+        </section>
     );
 }
 

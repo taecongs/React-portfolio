@@ -18,19 +18,21 @@ const App = () => {
         // console.log("onLeave", { origin, destination, direction });
         // console.log('99999', destination.anchor);
 
-        // let $line = document.querySelectorAll('.header_gnb li');
-        // let $line = document.querySelector('.header_gnb li::after');
-        // console.log($line);
-
-
+        let $header = document.querySelectorAll('header');
+        let $logo = document.querySelectorAll('.header_inner h1');
         let $li = document.querySelectorAll('.header_gnb li');
-
         let $nav = document.querySelectorAll('.header_gnb li a');
 
+        // 배경 검정색 => dot:#fff | 배경 밝은색 => dot : #000
         let $dot = document.querySelectorAll('#fp-nav ul li a span, .fp-slidesNav ul li a span');
 
 
         if(destination.anchor === 'firstPage'){
+            $header[0].classList.remove('header_bg');
+
+            $logo[0].classList.remove('logo_black');
+            $logo[0].className = 'header_logo';
+
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#fff";});
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#fff";});
             $li[0].className = 'header_on0';
@@ -40,6 +42,11 @@ const App = () => {
 
 
         } else if(destination.anchor === 'secondPage'){
+            $header[0].className = 'header_bg';
+
+            $logo[0].classList.remove('logo_white');
+            $logo[0].className = 'logo_black';
+
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000";});
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000";});
             $li[0].classList.remove('header_on0');

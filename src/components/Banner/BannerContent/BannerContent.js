@@ -22,7 +22,7 @@ const BannerContent = () => {
         <article>
             <div className='bannerContant_inner'>
                 <pre className="banner_title">{Text}</pre>
-                <p className='banner_p'>안녕하세요! 프론트엔드 개발자를 꿈꾸는 방장원입니다.</p>
+                <p className='banner_p'>안녕하세요, 프론트엔드 개발자를 꿈꾸는 방장원입니다.</p>
             </div>
 
             <div className="banner_bg">
@@ -31,7 +31,8 @@ const BannerContent = () => {
             </div>
 
             <div className='banner_detail'>
-                <small>해당 홈페이지의 해상도는 PC버전을 기준으로 최적화되어 있습니다.</small>
+                <small>해당 홈페이지는 React 기반으로 제작되었으며, 해상도는 PC버전을 기준으로 최적화되어 있습니다.</small>
+                {/* <small>해당 홈페이지의 해상도는 PC버전을 기준으로 최적화되어 있습니다.</small> */}
             </div>
         </article>
     );
