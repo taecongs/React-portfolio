@@ -1,9 +1,3 @@
-.fp-overflow{
-    height:100vh;
-    display:flex;
-    align-items: center;    
-}
-
 /*=========================================================
     skill 컨테이너 정의
 =========================================================*/
@@ -17,6 +11,7 @@
 .skillContant_inner {
     width: 1800px;
     // height: 100vh;
+    // min-height: 100vh;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -24,20 +19,19 @@
     // align-items: center;
     // justify-content: space-between;
     gap: 20px;
-
-    margin-top:60px;
-    margin-bottom:60px;
 }
 
 
+/*=========================================================
+    skill 컨테이너 정의
+=========================================================*/
 .skill_card {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     padding: 20px 20px 10px 20px;
-    // width: 15rem;
-    width: 17.5rem;
+    width: 15rem;
     background-color: #FFF;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     cursor: pointer;
@@ -45,9 +39,8 @@
 
 
 .down_1{
-    top:75%;
+    top:55%;
 }
-
 
 
 /*=========================================================
@@ -57,8 +50,7 @@
 .skill_card .skill_card_header_1 {
     position: relative;
     background-color: #eb6c3f;
-    height: 210px;
-    // height: 170px;
+    height: 170px;
     margin: -20px -20px 20px -20px;
     transition: height 0.5s;
     overflow: hidden;
@@ -68,7 +60,7 @@
 .skill_card .skill_card_header_2 {
     position: relative;
     background-color: #2465f1;
-    height: 210px;
+    height: 170px;
     margin: -20px -20px 20px -20px;
     transition: height 0.5s;
     overflow: hidden;
@@ -78,7 +70,7 @@
 .skill_card .skill_card_header_3 {
     position: relative;
     background-color: #f9d506;
-    height: 210px;
+    height: 170px;
     margin: -20px -20px 20px -20px;
     transition: height 0.5s;
     overflow: hidden;
@@ -88,7 +80,7 @@
 .skill_card .skill_card_header_4 {
     position: relative;
     background-color: #0868ac;
-    height: 210px;
+    height: 170px;
     margin: -20px -20px 20px -20px;
     transition: height 0.5s;
     overflow: hidden;
@@ -98,7 +90,7 @@
 .skill_card .skill_card_header_5 {
     position: relative;
     background-color: #ddc1fc;
-    height: 210px;
+    height: 170px;
     margin: -20px -20px 20px -20px;
     transition: height 0.5s;
     overflow: hidden;
@@ -108,7 +100,7 @@
 .skill_card .skill_card_header_6 {
     position: relative;
     background-color: #282c35;
-    height: 210px;
+    height: 170px;
     margin: -20px -20px 20px -20px;
     transition: height 0.5s;
     overflow: hidden;
@@ -118,61 +110,12 @@
 .skill_card .skill_card_header_7 {
     position: relative;
     background-color: #eab8d1;
-    height: 210px;
+    height: 170px;
     margin: -20px -20px 20px -20px;
     transition: height 0.5s;
     overflow: hidden;
 }
 
-// Node.js
-.skill_card .skill_card_header_8 {
-    position: relative;
-    background-color: #80bd01;
-    height: 210px;
-    margin: -20px -20px 20px -20px;
-    transition: height 0.5s;
-    overflow: hidden;
-}
-
-// MySQL
-.skill_card .skill_card_header_9 {
-    position: relative;
-    background-color: #4479a1;
-    height: 210px;
-    margin: -20px -20px 20px -20px;
-    transition: height 0.5s;
-    overflow: hidden;
-}
-
-// Git
-.skill_card .skill_card_header_10 {
-    position: relative;
-    background-color: #e2d4b9;
-    height: 210px;
-    margin: -20px -20px 20px -20px;
-    transition: height 0.5s;
-    overflow: hidden;
-}
-
-// Slack
-.skill_card .skill_card_header_11 {
-    position: relative;
-    background-color: #3d0d25;
-    height: 210px;
-    margin: -20px -20px 20px -20px;
-    transition: height 0.5s;
-    overflow: hidden;
-}
-
-// Figma
-.skill_card .skill_card_header_12 {
-    position: relative;
-    background-color: #121631;
-    height: 210px;
-    margin: -20px -20px 20px -20px;
-    transition: height 0.5s;
-    overflow: hidden;
-}
 
 
 
@@ -185,12 +128,7 @@
 .skill_card_header_4 .skill_card_icon,
 .skill_card_header_5 .skill_card_icon,
 .skill_card_header_6 .skill_card_icon,
-.skill_card_header_7 .skill_card_icon,
-.skill_card_header_8 .skill_card_icon,
-.skill_card_header_9 .skill_card_icon,
-.skill_card_header_10 .skill_card_icon,
-.skill_card_header_11 .skill_card_icon,
-.skill_card_header_12 .skill_card_icon {
+.skill_card_header_7 .skill_card_icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -201,23 +139,16 @@
     transition: transform 0.5s;
 }
 
-
 .skill_card:hover .skill_card_header_1,
 .skill_card:hover .skill_card_header_2,
 .skill_card:hover .skill_card_header_3,
 .skill_card:hover .skill_card_header_4,
 .skill_card:hover .skill_card_header_5,
 .skill_card:hover .skill_card_header_6,
-.skill_card:hover .skill_card_header_7,
-.skill_card:hover .skill_card_header_8,
-.skill_card:hover .skill_card_header_9,
-.skill_card:hover .skill_card_header_10,
-.skill_card:hover .skill_card_header_11,
-.skill_card:hover .skill_card_header_12 {
+.skill_card:hover .skill_card_header_7 {
     // height: 40px;
     height: 0;
 }
-
 
 .skill_card:hover .skill_card_header_1 .skill_card_icon,
 .skill_card:hover .skill_card_header_2 .skill_card_icon,
@@ -225,24 +156,18 @@
 .skill_card:hover .skill_card_header_4 .skill_card_icon, 
 .skill_card:hover .skill_card_header_5 .skill_card_icon,
 .skill_card:hover .skill_card_header_6 .skill_card_icon,
-.skill_card:hover .skill_card_header_7 .skill_card_icon,
-.skill_card:hover .skill_card_header_8 .skill_card_icon,
-.skill_card:hover .skill_card_header_9 .skill_card_icon,
-.skill_card:hover .skill_card_header_10 .skill_card_icon,
-.skill_card:hover .skill_card_header_11 .skill_card_icon,
-.skill_card:hover .skill_card_header_12 .skill_card_icon {
+.skill_card:hover .skill_card_header_7 .skill_card_icon {
     transform: translateX(-50%) translateY(-50%) scale(3);
 }
 
 
-
+/*=========================================================
+    호버 시 정의
+=========================================================*/
 .skill_card:hover .skill_card_body {
     // height: 170px;
-    // height: 210px;
-    height:240px;
+    height: 210px;
 }
-
-
 
 .skill_card .skill_card_body {
     height: 30px;
@@ -279,7 +204,6 @@
     transition-duration: 0;
     transition-delay: 0.5s;
     transform: translateX(-100%);
-    line-height: 14px;
 }
 
 .skill_card:hover .skill_card_body .skill_card_knowledge li {

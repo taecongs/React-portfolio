@@ -14,19 +14,23 @@ const Header = () => {
                 <nav className='header_nav'>
                     <ul className='header_gnb'>
                         <li className='header_on'>
-                            <a href='#firstPage'>HOME</a>
+                            <a href='#home'>HOME</a>
                         </li>
 
                         <li >
-                            <a href='#secondPage'>ABOUT</a>
+                            <a href='#about'>ABOUT</a>
                         </li>
 
                         <li>
-                            <a href='#thirdPage'>SKILL</a>
+                            <a href='#skill'>SKILL</a>
                         </li>
 
                         <li>
-                            <a href='#fourPage'>PORTFOLIO</a>
+                            <a href='#portfolio'>PORTFOLIO</a>
+                        </li>
+
+                        <li>
+                            <a href='#contact'>CONTACT</a>
                         </li>
                     </ul>
                 </nav>

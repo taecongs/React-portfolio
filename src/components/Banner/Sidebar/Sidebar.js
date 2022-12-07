@@ -45,10 +45,16 @@ const Sidebar = () => {
             <div className='overlay'>
                 <ul className="menu">
                     <li>
-                        {/* <Link to='/'>Portfolio</Link> */}
-                        <h2>About</h2>
+                        <a href='#home'>Home</a><br/>
+                        <a href='#about'>About</a><br/>
+                        <a href='#skill'>Skill</a><br/>
+                        <a href='#portfolio'>Portfolio</a><br/>
+                        <a href='#contact'>Contact</a>
+
+
+                        {/* <h2>About</h2>
                         <h2>Skill</h2>
-                        <h2>Portfolio</h2>
+                        <h2>Portfolio</h2> */}
                     </li>
                 </ul>
             </div>
