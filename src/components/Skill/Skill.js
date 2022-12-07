@@ -35,6 +35,9 @@ const Skill = () => {
     const skill_7 = document.querySelectorAll('.skill_box7');
     const skill_8 = document.querySelectorAll('.skill_box8');
     const skill_9 = document.querySelectorAll('.skill_box9');
+    const skill_10 = document.querySelectorAll('.skill_box10');
+    const skill_11 = document.querySelectorAll('.skill_box11');
+    const skill_12 = document.querySelectorAll('.skill_box12');
 
     skill_1.forEach(el => observer.observe(el));
     skill_2.forEach(el => observer.observe(el));
@@ -45,6 +48,9 @@ const Skill = () => {
     skill_7.forEach(el => observer.observe(el));
     skill_8.forEach(el => observer.observe(el));
     skill_9.forEach(el => observer.observe(el));
+    skill_10.forEach(el => observer.observe(el));
+    skill_11.forEach(el => observer.observe(el));
+    skill_12.forEach(el => observer.observe(el));
 
 
 
@@ -236,7 +242,7 @@ const Skill = () => {
                 </div>
 
                 {/* git */}
-                <div className=''>
+                <div className='skill_box10'>
                     <div className='skill_card'>
                         <div className='skill_card_header_10'>
                             <img className="skill_card_icon" src='' alt="git" />
@@ -255,7 +261,7 @@ const Skill = () => {
                 </div>
 
                 {/* Slack */}
-                <div className=''>
+                <div className='skill_box11'>
                     <div className='skill_card down_1'>
                         <div className='skill_card_header_11'>
                             <img className="skill_card_icon" src='' alt="slack" />
@@ -274,7 +280,7 @@ const Skill = () => {
                 </div>
 
                 {/* 포토샵 */}
-                <div className=''>
+                <div className='skill_box12'>
                     <div className='skill_card'>
                         <div className='skill_card_header_12'>
                             <img className="skill_card_icon" src='' alt="포토샵" />

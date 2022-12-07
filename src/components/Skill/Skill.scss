@@ -318,7 +318,8 @@
     페이지 스크롤 시 애니메이션 정의
 =========================================================*/
 .skill_box1, .skill_box2, .skill_box3, .skill_box4, .skill_box5,
-.skill_box6, .skill_box7, .skill_box8, .skill_box9{
+.skill_box6, .skill_box7, .skill_box8, .skill_box9, .skill_box10,
+.skill_box11, .skill_box12{
     opacity: 0;
     transform: translateY(50%);
     transition: .8s;
@@ -386,4 +387,25 @@
     opacity: 1;
     transform: translateY(0);
     transition-delay: 2.6s;
+}
+
+// 깃
+.skill_box10.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 2.9s;
+}
+
+// 슬랙
+.skill_box11.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 3.2s;
+}
+
+// 포토샵
+.skill_box12.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 3.5s;
 }
