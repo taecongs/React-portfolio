@@ -311,3 +311,79 @@
 .skill_card:hover .skill_card_body .skill_card_knowledge li:nth-child(6) {
     transition-delay: 1.5s;
 }
+
+
+
+/*=========================================================
+    페이지 스크롤 시 애니메이션 정의
+=========================================================*/
+.skill_box1, .skill_box2, .skill_box3, .skill_box4, .skill_box5,
+.skill_box6, .skill_box7, .skill_box8, .skill_box9{
+    opacity: 0;
+    transform: translateY(50%);
+    transition: .8s;
+}
+
+
+// HTML
+.skill_box1.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+// CSS
+.skill_box2.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.5s;
+}
+
+// 자바스크립트
+.skill_box3.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.8s;
+}
+
+// 제이쿼리
+.skill_box4.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 1.1s;
+}
+
+// 부트스트랩
+.skill_box5.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 1.4s;
+}
+
+// 리엑트
+.skill_box6.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 1.7s;
+}
+
+// Sass
+.skill_box7.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 2.0s;
+}
+
+// Node.js
+.skill_box8.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 2.3s;
+}
+
+// MySQL
+.skill_box9.active_skill{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 2.6s;
+}

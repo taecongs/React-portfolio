@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import {Link} from 'react-router-dom';
 
 import './Sidebar.scss';
 
@@ -50,11 +49,6 @@ const Sidebar = () => {
                         <a href='#skill'>Skill</a><br/>
                         <a href='#portfolio'>Portfolio</a><br/>
                         <a href='#contact'>Contact</a>
-
-
-                        {/* <h2>About</h2>
-                        <h2>Skill</h2>
-                        <h2>Portfolio</h2> */}
                     </li>
                 </ul>
             </div>

@@ -7,13 +7,54 @@ import $skill4 from './img/icon4.png';
 
 
 const Skill = () => {
+    // 페이지 스크롤 애니메이션 정의
+    const options = {
+        // viewport
+        root: null,
+        rootMargin: "0px",
+        // 50%가 viewport에 들어와 있어야 callback 실행
+        threshold: 1.0,
+    }
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active_skill');
+            } else {
+                entry.target.classList.remove('active_skill');
+            }
+        });
+    }, options);
+
+    const skill_1 = document.querySelectorAll('.skill_box1');
+    const skill_2 = document.querySelectorAll('.skill_box2');
+    const skill_3 = document.querySelectorAll('.skill_box3');
+    const skill_4 = document.querySelectorAll('.skill_box4');
+    const skill_5 = document.querySelectorAll('.skill_box5');
+    const skill_6 = document.querySelectorAll('.skill_box6');
+    const skill_7 = document.querySelectorAll('.skill_box7');
+    const skill_8 = document.querySelectorAll('.skill_box8');
+    const skill_9 = document.querySelectorAll('.skill_box9');
+
+    skill_1.forEach(el => observer.observe(el));
+    skill_2.forEach(el => observer.observe(el));
+    skill_3.forEach(el => observer.observe(el));
+    skill_4.forEach(el => observer.observe(el));
+    skill_5.forEach(el => observer.observe(el));
+    skill_6.forEach(el => observer.observe(el));
+    skill_7.forEach(el => observer.observe(el));
+    skill_8.forEach(el => observer.observe(el));
+    skill_9.forEach(el => observer.observe(el));
+
+
+
+
     return (
         <section className='custom-section skill_container'>
 
             <div className='skillContant_inner'>
-
                 {/* HTML5 */}
-                <div className='skill_box'>
+                <div className='skill_box1'>
                     <div className='skill_card down_1'>
                         <div className='skill_card_header_1'>
                             <img className="skill_card_icon" src={$skill1} alt="HTML5" />
@@ -35,7 +76,7 @@ const Skill = () => {
                 </div>
 
                 {/* CSS3 */}
-                <div className=''>
+                <div className='skill_box2'>
                     <div className='skill_card'>
                         <div className='skill_card_header_2'>
                             <img className="skill_card_icon" src={$skill2} alt="CSS3" />
@@ -56,7 +97,7 @@ const Skill = () => {
                 </div>
 
                 {/* 자바스크립트 */}
-                <div className=''>
+                <div className='skill_box3'>
                     <div className='skill_card down_1'>
                         <div className='skill_card_header_3'>
                             <img className="skill_card_icon" src={$skill3} alt="자바스크립트" />
@@ -77,7 +118,7 @@ const Skill = () => {
                 </div>
 
                 {/* 제이쿼리  */}
-                <div className=''>
+                <div className='skill_box4'>
                     <div className='skill_card'>
                         <div className='skill_card_header_4'>
                             <img className="skill_card_icon" src={$skill4} alt="제이쿼리" />
@@ -97,7 +138,7 @@ const Skill = () => {
                 </div>
 
                 {/* 부트스트랩  */}
-                <div className=''>
+                <div className='skill_box5'>
                     <div className='skill_card down_1'>
                         <div className='skill_card_header_5'>
                             <img className="skill_card_icon" src='' alt="부트스트랩" />
@@ -116,7 +157,7 @@ const Skill = () => {
                 </div>
 
                 {/* 리엑트  */}
-                <div className=''>
+                <div className='skill_box6'>
                     <div className='skill_card'>
                         <div className='skill_card_header_6'>
                             <img className="skill_card_icon" src='' alt="리엑트" />
@@ -137,7 +178,7 @@ const Skill = () => {
                 </div>
 
                 {/* Sass */}
-                <div className=''>
+                <div className='skill_box7'>
                     <div className='skill_card down_1'>
                         <div className='skill_card_header_7'>
                             <img className="skill_card_icon" src='' alt="Sass" />
@@ -156,7 +197,7 @@ const Skill = () => {
                 </div>
 
                 {/* Node.js */}
-                <div className=''>
+                <div className='skill_box8'>
                     <div className='skill_card'>
                         <div className='skill_card_header_8'>
                             <img className="skill_card_icon" src='' alt="Nodejs" />
@@ -177,7 +218,7 @@ const Skill = () => {
                 </div>
 
                 {/* MySQL */}
-                <div className=''>
+                <div className='skill_box9'>
                     <div className='skill_card down_1'>
                         <div className='skill_card_header_9'>
                             <img className="skill_card_icon" src='' alt="MySQL" />
