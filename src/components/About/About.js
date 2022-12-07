@@ -34,7 +34,6 @@ const About = () => {
                 entry.target.classList.add('active_about_r');
             } else {
                 entry.target.classList.remove('active_about_r');
-                entry.target.classList.remove('active_about_l');
             }
         });
     }, options2);

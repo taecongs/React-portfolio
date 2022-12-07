@@ -125,7 +125,7 @@
 =========================================================*/
 .about_left{
     opacity: 0;
-    transform: translateX(-50%);
+    transform: translateX(-15%);
     transition: .8s;    
 }
 
@@ -140,13 +140,13 @@
     About 페이지 도달 시 텍스트 애니메이션 정의
 =========================================================*/
 .about_right{
-    // opacity: 0;
-    // transform: translateX(50%);
-    // transition: .8s;      
+    opacity: 0;
+    transform: translateX(15%);
+    transition: .8s;    
 }
 
 .about_right.active_about_r{
-    // opacity: 1;
-    // transform: translateX(0);
-    // transition-delay: 0.4s;    
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 0.3s;    
 }
