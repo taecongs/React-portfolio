@@ -5,6 +5,48 @@ import $pdf from './pdf/이력서.pdf';
 
 
 const About = () => {
+    // 페이지 스크롤 애니메이션 정의
+    const options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 1.0,
+    }
+
+    const options2 = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 1.0,
+    }
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active_about_l');
+            } else {
+                entry.target.classList.remove('active_about_l');
+            }
+        });
+    }, options);
+
+    const observer2 = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active_about_r');
+            } else {
+                entry.target.classList.remove('active_about_r');
+                entry.target.classList.remove('active_about_l');
+            }
+        });
+    }, options2);
+
+    const about_l = document.querySelectorAll('.about_left');
+    const about_r = document.querySelectorAll('.about_right');
+
+    about_l.forEach(el => observer.observe(el));
+    about_r.forEach(el => observer2.observe(el));
+
+
+
     return (
         <section className='custom-section about_container'>
             <div className='aboutContant_inner'>

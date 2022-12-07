@@ -118,3 +118,30 @@
     background:#000;
     color:#fff;
 }
+
+
+.about_left{
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: .8s;    
+}
+
+.about_left.active_about_l{
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 0.1s;
+}
+
+
+
+.about_right{
+    // opacity: 0;
+    // transform: translateX(50%);
+    // transition: .8s;      
+}
+
+.about_right.active_about_r{
+    // opacity: 1;
+    // transform: translateX(0);
+    // transition-delay: 0.4s;    
+}
