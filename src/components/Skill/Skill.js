@@ -135,7 +135,7 @@ const Skill = () => {
                 <div className='skill_box4'>
                     <div className='skill_card'>
                         <div className='skill_card_header_4'>
-                            <img className="skill_card_icon wd_icon2" src={$skill4} alt="제이쿼리" />
+                            <img className="skill_card_icon wd_icon3" src={$skill4} alt="제이쿼리" />
                         </div>
 
                         <div className='skill_card_body'>
