@@ -4,6 +4,14 @@ import $skill1 from './img/icon1.png';
 import $skill2 from './img/icon2.png';
 import $skill3 from './img/icon3.png';
 import $skill4 from './img/icon4.png';
+import $skill5 from './img/icon5.png';
+import $skill6 from './img/icon6.png';
+import $skill7 from './img/icon7.png';
+import $skill8 from './img/icon8.png';
+import $skill9 from './img/icon9.png';
+import $skill10 from './img/icon10.png';
+import $skill11 from './img/icon11.png';
+import $skill12 from './img/icon12.png';
 
 
 const Skill = () => {
@@ -127,7 +135,7 @@ const Skill = () => {
                 <div className='skill_box4'>
                     <div className='skill_card'>
                         <div className='skill_card_header_4'>
-                            <img className="skill_card_icon" src={$skill4} alt="제이쿼리" />
+                            <img className="skill_card_icon wd_icon2" src={$skill4} alt="제이쿼리" />
                         </div>
 
                         <div className='skill_card_body'>
@@ -147,7 +155,7 @@ const Skill = () => {
                 <div className='skill_box5'>
                     <div className='skill_card down_1'>
                         <div className='skill_card_header_5'>
-                            <img className="skill_card_icon" src='' alt="부트스트랩" />
+                            <img className="skill_card_icon" src={$skill5} alt="부트스트랩" />
                         </div>
 
                         <div className='skill_card_body'>
@@ -166,7 +174,7 @@ const Skill = () => {
                 <div className='skill_box6'>
                     <div className='skill_card'>
                         <div className='skill_card_header_6'>
-                            <img className="skill_card_icon" src='' alt="리엑트" />
+                            <img className="skill_card_icon" src={$skill6} alt="리엑트" />
                         </div>
 
                         <div className='skill_card_body'>
@@ -187,7 +195,7 @@ const Skill = () => {
                 <div className='skill_box7'>
                     <div className='skill_card down_1'>
                         <div className='skill_card_header_7'>
-                            <img className="skill_card_icon" src='' alt="Sass" />
+                            <img className="skill_card_icon" src={$skill7} alt="Sass" />
                         </div>
 
                         <div className='skill_card_body'>
@@ -206,7 +214,7 @@ const Skill = () => {
                 <div className='skill_box8'>
                     <div className='skill_card'>
                         <div className='skill_card_header_8'>
-                            <img className="skill_card_icon" src='' alt="Nodejs" />
+                            <img className="skill_card_icon wd_icon1" src={$skill8} alt="Nodejs" />
                         </div>
 
                         <div className='skill_card_body'>
@@ -227,7 +235,7 @@ const Skill = () => {
                 <div className='skill_box9'>
                     <div className='skill_card down_1'>
                         <div className='skill_card_header_9'>
-                            <img className="skill_card_icon" src='' alt="MySQL" />
+                            <img className="skill_card_icon wd_icon1" src={$skill9} alt="MySQL" />
                         </div>
 
                         <div className='skill_card_body'>
@@ -245,7 +253,7 @@ const Skill = () => {
                 <div className='skill_box10'>
                     <div className='skill_card'>
                         <div className='skill_card_header_10'>
-                            <img className="skill_card_icon" src='' alt="git" />
+                            <img className="skill_card_icon" src={$skill10} alt="git" />
                         </div>
 
                         <div className='skill_card_body'>
@@ -264,7 +272,7 @@ const Skill = () => {
                 <div className='skill_box11'>
                     <div className='skill_card down_1'>
                         <div className='skill_card_header_11'>
-                            <img className="skill_card_icon" src='' alt="slack" />
+                            <img className="skill_card_icon wd_icon2" src={$skill11} alt="slack" />
                         </div>
 
                         <div className='skill_card_body'>
@@ -283,7 +291,7 @@ const Skill = () => {
                 <div className='skill_box12'>
                     <div className='skill_card'>
                         <div className='skill_card_header_12'>
-                            <img className="skill_card_icon" src='' alt="포토샵" />
+                            <img className="skill_card_icon" src={$skill12} alt="포토샵" />
                         </div>
 
                         <div className='skill_card_body'>

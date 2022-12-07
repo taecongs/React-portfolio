@@ -87,7 +87,7 @@
 // 제이쿼리
 .skill_card .skill_card_header_4 {
     position: relative;
-    background-color: #0868ac;
+    background-color: #1e2e3b;
     height: 210px;
     margin: -20px -20px 20px -20px;
     transition: height 0.5s;
@@ -200,6 +200,21 @@
     height: 128px;
     transition: transform 0.5s;
 }
+
+
+/*=========================================================
+    스킬 로고 이미지 작은 것들 width 값 정의
+=========================================================*/
+.wd_icon1{
+    width:160px !important;
+    height:160px !important;
+}
+
+.wd_icon2{
+    width:180px !important;
+    height:120px !important;
+}
+
 
 
 .skill_card:hover .skill_card_header_1,
