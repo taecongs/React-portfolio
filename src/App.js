@@ -36,6 +36,7 @@ const App = () => {
             $logo[0].className = 'header_logo';
 
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#fff"; });
+
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#fff"; });
             $li[0].className = 'header_on0';
 
@@ -85,6 +86,7 @@ const App = () => {
 
         } else if (destination.anchor === 'skill') {
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
+            $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
 
             // 로고
             $logo[0].classList.remove('header_logo');
@@ -109,6 +111,7 @@ const App = () => {
 
         } else if (destination.anchor === 'portfolio') {
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
+            $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
 
             // 로고
             $logo[0].classList.remove('header_logo');
@@ -133,6 +136,8 @@ const App = () => {
 
         } else if (destination.anchor === 'contact') {
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
+            $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
+            console.log('dsdsdsa23213', $dot);
 
             // 로고
             $logo[0].classList.remove('header_logo');
