@@ -36,6 +36,12 @@ const Portfolio = () => {
         threshold: 0.5,
     }
 
+    const options3 = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.5,
+    }
+
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -56,11 +62,23 @@ const Portfolio = () => {
         });
     }, options2);
 
+    const observer3 = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('dot_animation');
+            } else {
+                entry.target.classList.remove('dot_animation');
+            }
+        });
+    }, options3);
+
     const slider_l = document.querySelectorAll('.slider_left');
     const slider_r = document.querySelectorAll('.slider_right');
+    const slider_dot = document.querySelectorAll('.slick-dots');
 
     slider_l.forEach(el => observer.observe(el));
     slider_r.forEach(el => observer2.observe(el));
+    slider_dot.forEach(el => observer3.observe(el));
 
 
     return (
