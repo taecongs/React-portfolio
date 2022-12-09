@@ -147,17 +147,57 @@ article{
 		width:86%;
 	}
 
-	.banner_title{
-		font-size:6rem;
-		margin-left:-160px;
-	}
-
-	.banner_p{
-		margin-left:1px;
-	}
-
 	.banner_detail{
 		line-height: 1.5;
+	}
+
+	.ball1 {
+		opacity: 0.07;
+		position: relative;
+		right: -1000px;
+		bottom: -900px;
+		animation: ball1-1 3s linear infinite alternate;
+		// animation:none;
+	}
+	
+	
+	.ball2 {
+		opacity: 0.15;
+		position: relative;
+		right: -590px;
+		bottom: -150px;
+		animation: ball1-2 3s linear infinite alternate;
+		// animation:none;
+	}
+	
+	@keyframes ball1-1 {
+		0% {
+			right: -920px;
+			bottom: -870px;
+		}
+		50% {
+			right: -960px;
+			bottom: -885px;
+		}
+		100% {
+			right: -1000px;
+			bottom: -900px;
+		}
+	}
+	
+	@keyframes ball1-2 {
+		0% {
+			right: -590px;
+			bottom: -150px;
+		}
+		50% {
+			right: -580px;
+			bottom: -135px;
+		}
+		100% {
+			right: -570px;
+			bottom: -120px;
+		}
 	}
 
 }
@@ -176,6 +216,60 @@ article{
 	.banner_detail{
 		top:92%;
 	}
+
+	.ball1, .ball2{
+		width:500px;
+		height:500px;
+	}
+
+	.ball1 {
+		opacity: 0.07;
+		position: relative;
+		right: -800px;
+		bottom: -550px;
+		animation: ball1-1 3s linear infinite alternate;
+		// animation:none;
+	}
+	
+	
+	.ball2 {
+		opacity: 0.15;
+		position: relative;
+		right: -500px;
+		bottom: -150px;
+		animation: ball1-2 3s linear infinite alternate;
+		// animation:none;
+	}
+	
+	@keyframes ball1-1 {
+		0% {
+			right: -800px;
+			bottom: -550px;
+		}
+		50% {
+			right: -760px;
+			bottom: -575px;
+		}
+		100% {
+			right: -800px;
+			bottom: -550px;
+		}
+	}
+	
+	@keyframes ball1-2 {
+		0% {
+			right: -500px;
+			bottom: -150px;
+		}
+		50% {
+			right: -490px;
+			bottom: -135px;
+		}
+		100% {
+			right: -500px;
+			bottom: -120px;
+		}
+	}	
 }
 
 @include media('<1025px'){
@@ -187,6 +281,55 @@ article{
 	.banner_p{
 		margin-left:-25px;
 	}
+
+	.ball1 {
+		opacity: 0.07;
+		position: relative;
+		right: -500px;
+		bottom: -550px;
+		animation: ball1-1 3s linear infinite alternate;
+		// animation:none;
+	}
+	
+	
+	.ball2 {
+		opacity: 0.15;
+		position: relative;
+		right: -200px;
+		bottom: -150px;
+		animation: ball1-2 3s linear infinite alternate;
+		// animation:none;
+	}
+	
+	@keyframes ball1-1 {
+		0% {
+			right: -500px;
+			bottom: -550px;
+		}
+		50% {
+			right: -460px;
+			bottom: -575px;
+		}
+		100% {
+			right: -500px;
+			bottom: -550px;
+		}
+	}
+	
+	@keyframes ball1-2 {
+		0% {
+			right: -200px;
+			bottom: -150px;
+		}
+		50% {
+			right: -190px;
+			bottom: -135px;
+		}
+		100% {
+			right: -200px;
+			bottom: -120px;
+		}
+	}	
 }
 
 

@@ -52,6 +52,12 @@ const Sidebar = () => {
                     </li>
                 </ul>
             </div>
+
+            <nav className="m_navi">
+                <h2 className="m_nav-logo">
+                    B
+                </h2>
+            </nav>
         </aside>
     );
 }

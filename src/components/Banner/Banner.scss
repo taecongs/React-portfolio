@@ -1,3 +1,5 @@
+@import '~include-media/dist/include-media';
+
 .banner{
 	width:100%;
 	height:auto;
@@ -53,4 +55,22 @@
 	font-weight:400;
 	// background:url('./img/b_background.jpg') left top/100% 100% no-repeat;
 	background:#141414;
+}
+
+
+@include media('<1251px'){
+	#cover {
+		display:none;
+	}
+}
+
+
+@include media('<801px'){
+	#cover {
+		display:none;
+	}
+
+	.banner{
+		padding-left:0;
+	}
 }

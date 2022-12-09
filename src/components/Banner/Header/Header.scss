@@ -1,3 +1,5 @@
+@import '~include-media/dist/include-media';
+
 /*=========================================================
     헤더 섹션마다 배경 관련 정의
 =========================================================*/
@@ -132,4 +134,82 @@ header{
 .header_gnb .header_line::after{
     background:#000;
     opacity: 0.3;
+}
+
+
+@include media('<2001px'){
+    .header_inner{
+        width:90%;
+    }
+
+	.header_logo{
+		font-size:18px;
+        margin-left:7%;
+	}
+
+	.header_gnb li a{
+		font-size:18px;
+	}
+
+	.header_gnb{
+		width:600px;
+	} 
+}
+
+
+@include media('<1801px'){
+	.header_logo{
+		font-size:18px;
+        margin-left:7%;
+	}
+
+	.header_gnb li a{
+		font-size:18px;
+	}
+
+	.header_gnb{
+		width:600px;
+	} 
+}
+
+
+
+
+@include media('<1251px'){
+	.header_logo{
+		font-size:18px;
+        margin-left:7%;
+	}
+
+	.header_gnb li a{
+		font-size:18px;
+	}
+
+	.header_gnb{
+		width:600px;
+	} 
+}
+
+@include media('<1001px'){
+    .header_logo{
+        font-size:16px;
+        margin-left:9%;
+    }
+
+    .header_gnb li a{
+		font-size:16px;
+	}
+
+    .header_gnb{
+        width:500px;
+    }
+}
+
+
+
+@include media('<801px'){
+	// PC 헤더 숨김
+	header{
+		display:none;
+	}
 }

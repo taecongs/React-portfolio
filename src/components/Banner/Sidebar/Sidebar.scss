@@ -1,3 +1,5 @@
+@import '~include-media/dist/include-media';
+
 /*=========================================================
     사이드바 정의
 =========================================================*/
@@ -268,5 +270,52 @@
 
 .menu li h2{
     font-family: 'Tenada';
+}
+
+
+//  모바일 로고 관련 정의
+.m_navi{
+	width:100%;
+	position:fixed;
+	top:0;
+	width:100%;
+	padding:0.9rem;
+	background:#BABABA;
+	display:none;
+}
+
+
+
+@include media('<801px'){
+	// PC 사이드바 숨김
+	.left_nav {
+		display:none;
+	}
+
+	// 모바일 사이드바 오픈
+	.m_navi{
+		display:block;
+		z-index: 99;
+	}
+
+	.m_nav-logo{
+		text-align:left;
+		margin-left:4%;
+		font-size:1.5rem;
+		font-family: 'Tenada';
+		font-weight:800;
+		color:#000;		
+		position: relative;
+		top:5px;
+	}
+
+	.icon_wrap {
+		position:fixed;
+		left:90%;
+		top:1.8rem;
+		width:2.1rem;
+		height:1.6rem;
+		transform:rotate(0deg) translateY(0);
+	}
 }
 
