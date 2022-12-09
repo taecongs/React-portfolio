@@ -109,22 +109,22 @@ const Contact = () => {
                 <div className='contact_box'>
                     <ul className='recruit_submit'>
                         <li>
-                            <p class="category">
+                            <p className="category">
                                 <span>Contact</span>
                             </p>
 
                             <div className='contact_info'>
                                 <h2>
                                     <span>꾸준히 성장하는 개발자</span> 방장원입니다.
-                                    <p class="info_1">이메일 : bks0927w@gmail.com</p>
-                                    <p class="info_2">전화번호 : 010-8127-9927</p>
+                                    <p className="info_1">이메일 : bks0927w@gmail.com</p>
+                                    <p className="info_2">전화번호 : 010-8127-9927</p>
                                 </h2>
                             </div>
 
                         </li>
 
                         <li>
-                            <p class="category">
+                            <p className="category">
                                 <span>Channels</span>
                             </p>
 
@@ -133,15 +133,15 @@ const Contact = () => {
                                     <span>다양한 기술을 공부</span>하며 익혀두려 노력하고 있습니다.
 
                                     <div className='contact_link'>
-                                        <div class="notion_box2">
+                                        <div className="notion_box2">
                                             <a href="https://abundant-cyclamen-76a.notion.site/01b71b9d5b0e48b9b0ae85d3ce8366b9" target="_blank">
-                                                <span class="notion_text">노션 바로가기</span>
+                                                <span className="notion_text">노션 바로가기</span>
                                             </a>
                                         </div>
 
-                                        <div class="git_box2">
+                                        <div className="git_box2">
                                             <a href="https://github.com/taecongs" target="_blank">
-                                                <span class="git_text">깃헙 바로가기</span>
+                                                <span className="git_text">깃헙 바로가기</span>
                                             </a>
                                         </div>
                                     </div>
