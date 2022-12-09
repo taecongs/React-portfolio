@@ -142,23 +142,14 @@ header{
         width:90%;
     }
 
-	.header_logo{
-		font-size:18px;
-        margin-left:7%;
+    .header_logo{
+        margin-left:4%;
 	}
-
-	.header_gnb li a{
-		font-size:18px;
-	}
-
-	.header_gnb{
-		width:600px;
-	} 
 }
 
 
 @include media('<1801px'){
-	.header_logo{
+	.header_logo, .logo_black{
 		font-size:18px;
         margin-left:7%;
 	}
@@ -176,7 +167,7 @@ header{
 
 
 @include media('<1251px'){
-	.header_logo{
+	.header_logo, .logo_black{
 		font-size:18px;
         margin-left:7%;
 	}
@@ -191,7 +182,7 @@ header{
 }
 
 @include media('<1001px'){
-    .header_logo{
+    .header_logo, .logo_black{
         font-size:16px;
         margin-left:9%;
     }
