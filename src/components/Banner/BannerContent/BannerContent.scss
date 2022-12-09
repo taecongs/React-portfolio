@@ -83,6 +83,7 @@ article {
 	right: -1600px;
 	bottom: -800px;
 	animation: ball1-1 3s linear infinite alternate;
+	animation:none;
 }
 
 
@@ -92,6 +93,7 @@ article {
 	right: -1090px;
 	bottom: -150px;
 	animation: ball1-2 3s linear infinite alternate;
+	animation: none;
 }
 
 @keyframes ball1-1 {
@@ -164,6 +166,27 @@ article {
 
 	.banner_detail {
 		line-height: 1.5;
+	}
+
+	.ball1, .ball2 {
+		// width: 800px;
+		// height: 800px;
+
+	}
+
+	.ball1 {
+		// right: -1300px;
+		// bottom: -740px;
+		// animation: ball1-1 3s linear infinite alternate;
+		// animation:none;
+	}
+	
+	
+	.ball2 {
+		// right: -900px;
+		// bottom: -150px;
+		// animation: ball1-2 3s linear infinite alternate;
+		// animation: none;
 	}
 }
 
