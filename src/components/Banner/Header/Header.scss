@@ -142,9 +142,14 @@ header{
         width:90%;
     }
 
-    .header_logo{
+    .header_logo, .logo_black{
         margin-left:4%;
 	}
+
+    .header_gnb{
+		width:700px;
+        margin-right:4%;
+	} 
 }
 
 
@@ -160,6 +165,7 @@ header{
 
 	.header_gnb{
 		width:600px;
+        margin-right:7%;
 	} 
 }
 
@@ -198,7 +204,7 @@ header{
 
 
 
-@include media('<801px'){
+@include media('<901px'){
 	// PC 헤더 숨김
 	header{
 		display:none;
