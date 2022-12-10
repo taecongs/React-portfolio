@@ -68,8 +68,7 @@ article {
 	position: absolute;
 }
 
-.ball1,
-.ball2 {
+.ball1, .ball2 {
 	display: block;
 	width: 900px;
 	height: 900px;
@@ -80,7 +79,7 @@ article {
 .ball1 {
 	opacity: 0.07;
 	position: relative;
-	right: -1600px;
+	right: -1700px;
 	bottom: -800px;
 	animation: ball1-1 3s linear infinite alternate;
 	// animation: none;
@@ -98,17 +97,17 @@ article {
 
 @keyframes ball1-1 {
 	0% {
-		right: -1520px;
+		right: -1620px;
 		bottom: -770px;
 	}
 
 	50% {
-		right: -1560px;
+		right: -1660px;
 		bottom: -785px;
 	}
 
 	100% {
-		right: -1600px;
+		right: -1700px;
 		bottom: -800px;
 	}
 }
@@ -289,6 +288,63 @@ article {
 			bottom: -90px;
 		}
 	}	
+}
+
+
+@include media('<1441px') {
+	.ball1, .ball2 {
+		width: 600px;
+		height: 600px;
+	}
+
+	.ball1 {
+		right: -970px;
+		bottom: -600px;
+		animation: ball1-1 3s linear infinite alternate;
+		// animation:none;
+	}
+
+
+	.ball2 {
+		right: -620px;
+		bottom: -120px;
+		animation: ball1-2 3s linear infinite alternate;
+		// animation: none;
+	}	
+	
+	@keyframes ball1-1 {
+		0% {
+			right: -890px;
+			bottom: -570px;
+		}
+
+		50% {
+			right: -930px;
+			bottom: -585px;
+		}
+
+		100% {
+			right: -970px;
+			bottom: -600px;
+		}
+	}
+
+	@keyframes ball1-2 {
+		0% {
+			right: -620px;
+			bottom: -120px;
+		}
+
+		50% {
+			right: -610px;
+			bottom: -105px;
+		}
+
+		100% {
+			right: -600px;
+			bottom: -90px;
+		}
+	}		
 }
 
 
