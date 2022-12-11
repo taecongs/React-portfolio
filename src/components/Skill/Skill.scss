@@ -1,3 +1,5 @@
+@import '~include-media/dist/include-media';
+
 .fp-overflow{
     height:100vh;
     display:flex;
@@ -10,9 +12,7 @@
 .skill_container {
     width: 100%;
     height: 100vh;
-    // background:#141414;
     background:#f5f5f5;
-    // background:#fff;
 }
 
 .skillContant_inner {

@@ -1,5 +1,11 @@
 @import '~include-media/dist/include-media';
 
+.fp-overflow{
+    height:100vh;
+    display:flex;
+    align-items: center;    
+}
+
 /*=========================================================
     About 컨테이너 정의
 =========================================================*/
