@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     gap: 100px;
-    margin-top:3%;
+    margin-top: 3%;
 }
 
 // 타이틀
@@ -212,8 +212,8 @@
         margin-top: 6%;
     }
 
-    .about_left{
-        width:60%;
+    .about_left {
+        width: 60%;
     }
 
     // 어바웃 타이틀 문구
@@ -230,6 +230,7 @@
 
 
 @include media('<1251px') {
+
     // 어바웃 타이틀 문구
     .about_title {
         font-size: 20px;
@@ -241,7 +242,8 @@
         font-size: 16px;
     }
 
-    .av_1, .av_2 {
+    .av_1,
+    .av_2 {
         margin-top: 1.2rem;
     }
 
@@ -260,81 +262,76 @@
 
 
 @include media('<1101px') {
-    .header_gnb{
-        width:500px;
+    .header_gnb {
+        width: 500px;
     }
 
-    .about_left{
-        width:100%;
+    .about_left {
+        width: 100%;
     }
 
     // 어바웃 상세 내용
-    .av_p{
-        font-size:14px;
+    .av_p {
+        font-size: 14px;
     }
 }
 
 
 @include media('<1001px') {
-    .header_gnb{
-        width:450px;
+    .header_gnb {
+        width: 450px;
     }
 
-    .aboutContant_inner{
-        width:74%;
+    .aboutContant_inner {
+        width: 74%;
     }
 
-    .av_1, .av_2{
-        margin-top:0.5rem;
+    .av_1,
+    .av_2 {
+        margin-top: 0.5rem;
     }
 }
 
 
+
 @include media('<901px') {
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
     // 원페이지 앵커 정의
-    #fp-nav.fp-right{
-        right:9px;
-    }
-
-    .aboutContant_inner{
-        width:89%;
-        gap:30px;
-    }
-}
-
-
-@include media('<901px') {
-    *::-webkit-scrollbar{
-        display:none;
+    #fp-nav.fp-right {
+        right: 9px;
     }
 
     .aboutContant_inner {
         width: 90%;
         flex-direction: column;
-        gap:15px;
+        gap: 15px;
         // margin-top:8%;
-        margin-top:0;
+        margin-top: 0;
 
-        height:calc(100vh - 230px);
+        height: calc(100vh - 230px);
     }
 
-    .about_left, .about_right{
+    .about_left,
+    .about_right {
         // width:65%;
-        width:80%;
+        width: 80%;
     }
-    
+
     .about_title {
         // font-size: 18px;
         font-size: 20px;
     }
 
-    .av_p{
-        font-size:18px;
+    .av_p {
+        font-size: 18px;
     }
 
-    .download_btn{
-        padding:12px 15px;
-        font-size:10px;
+    .download_btn {
+        padding: 12px 15px;
+        font-size: 10px;
     }
 
     .download_inner {
@@ -342,13 +339,15 @@
         margin-bottom: 1.5rem;
     }
 
-    .about_left, .about_left.active_about_l {
+    .about_left,
+    .about_left.active_about_l {
         opacity: 1;
         transform: none;
         text-align: center;
     }
 
-    .about_right, .about_right.active_about_r  {
+    .about_right,
+    .about_right.active_about_r {
         opacity: 1;
         transform: none;
     }
@@ -356,19 +355,23 @@
 
 
 @include media('<501px') {
-    .about_left, .about_right{
-        width:85%;
+
+    .about_left,
+    .about_right {
+        width: 95%;
     }
 
     .about_title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .av_p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
-    .icon, .icon:before, .icon:after{
-        width:1.5rem;
+    .icon,
+    .icon:before,
+    .icon:after {
+        width: 1.5rem;
     }
 }
