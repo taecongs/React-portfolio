@@ -17,7 +17,6 @@
     display: flex;
     align-items: center;
     gap: 100px;
-    margin-top:3%;
 }
 
 // 타이틀
@@ -303,7 +302,7 @@
 }
 
 
-@include media('<901px') {
+@include media('<801px') {
     .aboutContant_inner {
         width: 90%;
         flex-direction: column;
