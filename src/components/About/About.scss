@@ -304,6 +304,10 @@
 
 
 @include media('<901px') {
+    .body::-webkit-scrollbar{
+        display:none;
+    }
+
     .aboutContant_inner {
         width: 90%;
         flex-direction: column;
