@@ -157,6 +157,10 @@
 
 
 
+/*=========================================================
+    반응형 기준점 정의
+    2001, 1801, 1441, 1251, 1101, 1001, 901, 701, 501
+=========================================================*/
 @include media('<2001px') {
     .aboutContant_inner {
         width: 83%;
@@ -177,6 +181,9 @@
     .aboutContant_inner {
         width: 78%;
         gap: 70px;
+
+        // 2022-12-11 노트북에서 추가
+        margin-top: 5%;
     }
 
     // 어바웃 타이틀 문구
@@ -199,6 +206,13 @@
 @include media('<1441px') {
     .aboutContant_inner {
         gap: 50px;
+
+        // 2022-12-11 노트북에서 추가
+        margin-top: 6%;
+    }
+
+    .about_left{
+        width:60%;
     }
 
     // 어바웃 타이틀 문구
@@ -210,15 +224,15 @@
     .av_p {
         font-size: 18px;
     }
+
 }
 
 
 @include media('<1251px') {
-
     // 어바웃 타이틀 문구
     .about_title {
         font-size: 20px;
-        line-height:1.5;
+        line-height: 1.5;
     }
 
     // 어바웃 상세 내용
@@ -244,64 +258,102 @@
 }
 
 
-@include media('<1001px') {
-    .aboutContant_inner {
-        width: 80%;
-        flex-direction: column;
+@include media('<1101px') {
+    .header_gnb{
+        width:500px;
     }
 
     .about_left{
-        width:80%;
+        width:100%;
     }
 
-    .about_left {
-        transform: translateY(5%);
-    }
-    
-    .about_left.active_about_l {
-        transform: translateY(0);
-    }
-
-    .about_right {
-        transform: translateY(5%);
-    }
-    
-    .about_right.active_about_r {
-        transform: translateY(0);
-    }
-}
-
-
-@include media('<701px') {
-    .aboutContant_inner {
-        width: 90%;
-    }
-
-    .about_title{
-        font-size:18px;
-    }
-
-    .download_inner{
-        margin-top:2rem;
-    }
-}
-
-@include media('<501px') {
-    .about_left{
-        opacity: 1;
-        transform: none;
-    }
-
-    .about_right{
-        opacity: 1;
-        transform: none;
-    }
-
-    .about_title{
+    // 어바웃 상세 내용
+    .av_p{
         font-size:14px;
     }
+}
 
-    .av_p{
-        font-size:12px;
+
+@include media('<1001px') {
+    .header_gnb{
+        width:450px;
+    }
+
+    .aboutContant_inner{
+        width:74%;
+    }
+
+    .av_1, .av_2{
+        margin-top:0.5rem;
+    }
+}
+
+
+@include media('<901px') {
+    // 원페이지 앵커 정의
+    #fp-nav.fp-right{
+        right:9px;
+    }
+
+    .aboutContant_inner{
+        width:89%;
+        gap:30px;
+    }
+}
+
+
+@include media('<801px') {
+    .aboutContant_inner {
+        width: 90%;
+        flex-direction: column;
+        gap:15px;
+        margin-top:8%;
+    }
+
+    .about_left, .about_right{
+        width:65%;
+    }
+    
+    .about_title {
+        font-size: 18px;
+    }
+
+    .download_btn{
+        padding:12px 15px;
+        font-size:10px;
+    }
+
+    .download_inner {
+        margin-top: 1.5rem;
+    }
+
+    .about_left, .about_left.active_about_l {
+        opacity: 1;
+        transform: none;
+        text-align: center;
+    }
+
+    .about_right, .about_right.active_about_r  {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+@include media('<501px') {
+    .about_left, .about_right{
+        width:85%;
+    }
+
+    .about_title {
+        font-size: 14px;
+    }
+
+    .av_p {
+        font-size: 12px;
+    }
+
+    .icon, .icon:before, .icon:after{
+        width:1.5rem;
     }
 }
