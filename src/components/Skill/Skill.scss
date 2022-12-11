@@ -299,7 +299,7 @@
     font-weight: 600;
     transition-duration: 0;
     transition-delay: 0.5s;
-    transform: translateX(-100%);
+    transform: translateX(-50%);
     line-height: 14px;
 }
 
@@ -440,4 +440,155 @@
     transform: translateY(0);
     // transition-delay: 3.4s;
     transition-delay: 3.2s;
+}
+
+
+
+/*=========================================================
+    반응형 기준점 정의
+    2001, 1801, 1441, 1251, 1101, 1001, 901, 501
+=========================================================*/
+@include media('<2001px'){
+    .skillContant_inner{
+        width:83%;
+    }
+
+    .skill_card{
+        width:245px;
+    }
+
+    .skill_card .skill_card_header_1, .skill_card .skill_card_header_2,
+    .skill_card .skill_card_header_3, .skill_card .skill_card_header_4,
+    .skill_card .skill_card_header_5, .skill_card .skill_card_header_6,
+    .skill_card .skill_card_header_7, .skill_card .skill_card_header_8,
+    .skill_card .skill_card_header_9, .skill_card .skill_card_header_10,
+    .skill_card .skill_card_header_11, .skill_card .skill_card_header_12{
+        height:180px;
+    }
+
+    .skill_card:hover .skill_card_body {
+        height:180px;
+    }
+}
+
+
+@include media('<1891px'){
+    .skill_card{
+        width:230px;
+    }
+}
+
+
+@include media('<1801px'){
+    .skillContant_inner{
+        width:78%;
+        margin-top: 5%;       
+        gap : 20px;
+    }
+
+    .skill_card{
+        // width:12.5rem;
+        width:200px;
+    }
+
+    .skill_card .skill_card_header_1, .skill_card .skill_card_header_2,
+    .skill_card .skill_card_header_3, .skill_card .skill_card_header_4,
+    .skill_card .skill_card_header_5, .skill_card .skill_card_header_6,
+    .skill_card .skill_card_header_7, .skill_card .skill_card_header_8,
+    .skill_card .skill_card_header_9, .skill_card .skill_card_header_10,
+    .skill_card .skill_card_header_11, .skill_card .skill_card_header_12{
+        height:150px;
+    }
+
+    .skill_card:hover .skill_card_body {
+        height:175px;
+    }
+
+    // 스킬 로고 정의
+    .skill_card_header_1 .skill_card_icon, .skill_card_header_2 .skill_card_icon, 
+    .skill_card_header_3 .skill_card_icon, .skill_card_header_4 .skill_card_icon, 
+    .skill_card_header_5 .skill_card_icon, .skill_card_header_6 .skill_card_icon, 
+    .skill_card_header_7 .skill_card_icon, .skill_card_header_8 .skill_card_icon, 
+    .skill_card_header_9 .skill_card_icon, .skill_card_header_10 .skill_card_icon, 
+    .skill_card_header_11 .skill_card_icon, .skill_card_header_12 .skill_card_icon{
+        width:90px;
+        height:90px;
+    }
+
+    // 스킬 타이틀
+    .skill_card .skill_card_body .skill_card_title{
+        font-size:18px;
+    }
+
+    // 호버 시 나오는 텍스트
+    .skill_card .skill_card_body .skill_card_knowledge li{
+        font-size:10px;
+        transform: translateX(-100%);
+    }
+
+    // nodejs, mysql
+    .wd_icon1{
+        width:120px !important;
+        height:120px !important;
+    }
+
+    // slack
+    .wd_icon2{
+        width:140px !important;
+        height:90px !important;
+    }
+
+    // 제이쿼리
+    .wd_icon3{
+        width:150px !important;
+        height:100px !important;
+    }
+}
+
+
+@include media('<1667px'){
+    .skill_card{
+        width:195px;
+    }
+}
+
+@include media('<1629px'){
+    .skill_card{
+        width:190px;
+    }
+}
+
+@include media('<1590px'){
+    .skill_card{
+        width:185px;
+    }    
+}
+
+
+
+
+
+
+@include media('<1441px'){
+
+}
+
+@include media('<1251px'){
+
+}
+
+@include media('<1101px'){
+
+}
+
+@include media('<1001px'){
+
+}
+
+@include media('<901px'){
+
+}
+
+@include media('<501px'){
+
 }
