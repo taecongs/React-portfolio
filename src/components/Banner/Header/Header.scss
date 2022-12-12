@@ -137,6 +137,20 @@ header{
 }
 
 
+
+
+
+
+
+
+@include media('<2561px'){
+    .header_inner{
+        width:71%;
+    }
+}
+
+
+
 @include media('<2001px'){
     .header_inner{
         width:90%;

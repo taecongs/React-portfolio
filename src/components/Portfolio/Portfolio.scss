@@ -48,7 +48,7 @@
     // width:50%;
     width: calc(50% - 100px);
     position: relative;
-    padding-left: 14%;
+    padding-left: 14.5%;
 }
 
 
@@ -347,6 +347,7 @@
     bottom: -150px;
     left: 0 !important;
     transition: .8s;
+    margin-top:2% !important;
 }
 
 .slick-dots.dot_animation {
@@ -362,24 +363,7 @@
     반응형 기준점 정의
     2001, 1801, 1441, 1251, 1101, 1001, 901, 501
 =========================================================*/
-@include media('<2561px') {
-    // .slider_left{
-    //     padding-left:12.1%;
-    // }
 
-    // .slider_right{
-    //     width:calc(50% - 100px);
-    //     padding-right:11%;
-    // }
-
-    // .slider_detail{
-    //     font-size:28px;
-    // }
-
-    // .slick-dots{
-    //     left:0;
-    // }
-}
 
 
 @include media('<2001px') {
@@ -608,9 +592,5 @@
 
     .site_box, .notion_box, .git_box{
         padding:5px 10px;
-    }
-
-    .slick-dots{
-        margin-top:4% !important;
     }
 }
