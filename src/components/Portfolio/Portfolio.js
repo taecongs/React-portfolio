@@ -272,7 +272,7 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='http://27.96.130.163:8080/' target='_blank'>
+                                        <a href='https://hamayj.today:8080/' target='_blank'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
