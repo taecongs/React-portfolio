@@ -501,7 +501,8 @@
 @include media('<1801px') {
     .skillContant_inner {
         width: 78%;
-        margin-top: 5%;
+        // margin-top: 5%;
+        height:calc(100vh - 520px);
         gap: 20px;
     }
 
@@ -636,6 +637,10 @@
 
 
 @include media('<1336px') {
+    .skillContant_inner{
+        height:calc(100vh - 350px);
+    }
+
     .skill_card {
         width: 240px;
     }
@@ -660,11 +665,13 @@
     }
 }
 
+
 @include media('<1327px') {
     .skill_card {
         width: 220px;
     }
 }
+
 
 @include media('<1216px') {
     .skill_card {
@@ -823,7 +830,8 @@
 
 @include media('<743px') {
     .skillContant_inner {
-        margin-top: 10%;
+        // margin-top: 10%;
+        height:calc(100vh - 190px);
     }
 
     .skill_card {
@@ -896,7 +904,7 @@
 
 @include media('<518px') {
     .skillContant_inner {
-        margin-top: 400px;
+        // margin-top: 400px;
     }
 
     .skill_card {
@@ -923,7 +931,7 @@
 
 @include media('<501px') {
     .skillContant_inner {
-        margin-top: 390px;
+        // margin-top: 390px;
     }
 
     .skill_card {
@@ -934,7 +942,7 @@
 
 @include media('<488px') {
     .skillContant_inner {
-        margin-top: 450px;
+        // margin-top: 450px;
     }
 
     .skill_card {

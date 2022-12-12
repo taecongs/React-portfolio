@@ -172,8 +172,6 @@
 @include media('<2001px') {
     .aboutContant_inner {
         width: 83%;
-        height:calc(100vh - 250px);
-        margin-top:4%;
     }
 
     // 어바웃 타이틀 문구
@@ -235,28 +233,18 @@
     .av_p {
         font-size: 18px;
     }
-
 }
 
 
-@include media('<1271px'){
-    // 어바웃 타이틀 문구
-    .about_title {
-        font-size: 22px;
-        line-height: 1.5;
-    }
-
-    .download_btn{
-        padding:15px 20px;
-    }
-
-    .av_1, .av_2{
-        margin-top:1.2rem;
+@include media('<1271px') {
+    .about_title{
+        font-size:22px;
     }
 }
 
 
 @include media('<1251px') {
+
     // 어바웃 타이틀 문구
     .about_title {
         font-size: 20px;
@@ -334,7 +322,7 @@
         flex-direction: column;
         gap: 15px;
         margin-top:0;
-        // margin-top: 0;
+
         height: calc(100vh - 180px);
     }
 

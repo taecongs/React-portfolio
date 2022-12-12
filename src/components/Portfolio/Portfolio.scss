@@ -10,7 +10,8 @@
 .portfolio_container {
     width: 100%;
     height: 100vh;
-    background: url(./img/b_background.jpg) left top/100% 100% no-repeat;
+    // background: url(./img/b_background.jpg) left top/100% 100% no-repeat;
+    background-image: linear-gradient(to right, #f5f5f5 50%, #f0f0f0 50%);
 }
 
 
@@ -560,7 +561,10 @@
     .portfolioContant_inner {
         // margin-top:12%;
         width: 90%;
-        margin-top:150px;
+        // margin-top:150px;
+        margin-top:0;
+
+        height: calc(100vh - 160px);
     }
 
     .bg_box{
@@ -626,7 +630,7 @@
 
 @include media('<769px'){
     .portfolioContant_inner{
-        margin-top:100px;
+        // margin-top:100px;
     }
 
     #fp-nav.fp-right{
@@ -649,7 +653,7 @@
 @include media('<545px') {
     // 추가
     .portfolioContant_inner {
-        margin-top: 100px;
+        // margin-top: 100px;
     }
 
     #fp-nav.fp-right {
@@ -664,7 +668,7 @@
 
 @include media('<501px') {
     .portfolioContant_inner{
-        margin-top:40px;
+        // margin-top:40px;
     }
 
     .slider_left, .slider_right{
@@ -702,7 +706,7 @@
 @include media('<426px') {
     // 추가
     .portfolioContant_inner {
-        margin-top: 60px;
+        // margin-top: 60px;
     }
 }
 
@@ -710,6 +714,6 @@
 @include media('<376px') {
     // 추가
     .portfolioContant_inner {
-        margin-top: 30px;
+        // margin-top: 30px;
     }
 }
