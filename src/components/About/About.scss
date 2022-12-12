@@ -166,7 +166,8 @@
 
 /*=========================================================
     반응형 기준점 정의
-    2001, 1801, 1441, 1251, 1101, 1001, 901, 501
+    2001, 1801, 1441, 1251, 1101, 1001, 
+    901, 701, 545, 501, 376
 =========================================================*/
 @include media('<2001px') {
     .aboutContant_inner {
@@ -180,7 +181,7 @@
 
     // 어바웃 상세 내용
     .av_p {
-        font-size: 27px;
+        font-size: 24px;
     }
 }
 
@@ -314,17 +315,17 @@
         width: 90%;
         flex-direction: column;
         gap: 15px;
-        // margin-top:8%;
-        margin-top: 0;
+        margin-top:150px;
+        // margin-top: 0;
 
         // height: calc(100vh - 230px);
     }
 
     .about_left,
     .about_right {
-        // width:65%;
+        width:65%;
         // width: 80%;
-        width: 90%;
+        // width: 90%;
     }
 
     .about_title {
@@ -361,7 +362,40 @@
 }
 
 
+@include media('<769px'){
+
+}
+
+
+@include media('<701px'){
+    .aboutContant_inner{
+        margin-top:180px;
+    }
+
+    .about_left, .about_right{
+        width:90%;
+    }
+}
+
+
+@include media('<545px') {
+    // 추가
+    .aboutContant_inner{
+        margin-top:150px;
+    }
+
+    #fp-nav.fp-right{
+        right:0;
+    }
+}
+
+
 @include media('<501px') {
+    // 추가
+    .aboutContant_inner{
+        margin-top:0;
+    }
+
     .about_left,
     .about_right {
         width: 95%;
@@ -379,5 +413,12 @@
     .icon:before,
     .icon:after {
         width: 1.5rem;
+    }
+}
+
+@include media('<376px') {
+    // 추가
+    .aboutContant_inner{
+        margin-top:20px;
     }
 }

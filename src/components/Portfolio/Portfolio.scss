@@ -361,53 +361,13 @@
 
 /*=========================================================
     반응형 기준점 정의
-    2001, 1801, 1441, 1251, 1101, 1001, 901, 501
+    2001, 1801, 1441, 1251, 1101, 1001, 
+    901, 701, 545, 501, 426, 376
 =========================================================*/
-@include media('<2411px'){
-    
-}
-
-
-@include media('<2311px'){
-    
-}
-
-
-@include media('<2411px'){
-    
-}
-
-
-@include media('<2311px'){
-    
-}
-
-
-@include media('<2211px'){
-}
-
-
-@include media('<2111px'){
-    // .portfolioContant_inner{
-    //     margin-top:3%;
-    // }
-
-    // .slider_left{
-    //     padding-left:7.4%;
-    // }
-
-    // .slider_right{
-    //     padding-right:6.7%;
-    // }
-}
-
-
-
-
 @include media('<2001px') {
     .portfolioContant_inner {
         width: 100%;
-        margin-top: 3%;
+        margin-top: 5%;
     }
 
 
@@ -428,6 +388,23 @@
 
     .slider_detail {
         font-size: 27px;
+    }
+
+    // 추가
+    .slider_my_t {
+        font-size: 18px;
+    }
+
+    .slider_sub {
+        padding-bottom: 1.2rem;
+    }
+
+    .slider_title {
+        font-size: 5rem;
+    }
+
+    .slider_detail {
+        font-size: 24px;
     }
 }
 
@@ -560,8 +537,19 @@
 }
 
 
-@include media('<1001px') {}
+@include media('<1001px') {
+    .portfolioContant_inner {
+        width: 74%;
+    }    
 
+    .slider_left{
+        padding-left:0;
+    }
+
+    .slider_right{
+        padding-right:0;
+    }
+}
 
 
 @include media('<901px') {
@@ -572,6 +560,11 @@
     .portfolioContant_inner {
         // margin-top:12%;
         width: 90%;
+        margin-top:150px;
+    }
+
+    .bg_box{
+        height:auto;
     }
 
     // 원페이지 앵커 정의
@@ -588,15 +581,18 @@
         opacity: 1;
         left: 0;
         padding-left: 0;
-        width: 100%;
+        // width: 100%;
+        width: 65%;
         margin-top: 30px;
+        margin-bottom: 10px;
     }
 
     .slider_right {
         opacity: 1;
         right: 0;
         padding-right: 0;
-        width: 100%;
+        // width: 100%;
+        width:65%;
         transition: none;
     }
 
@@ -617,12 +613,64 @@
     .slick-dots {
         transition: none;
         opacity: 1;
-        margin-top: 4% !important;
+        margin-top: 0 !important;
     }
 
+
+    // 추가 
+    .mokup_box {
+        text-align: center;
+    }
 }
 
+
+@include media('<769px'){
+    .portfolioContant_inner{
+        margin-top:100px;
+    }
+}
+
+
+@include media('<701px'){
+    .slider_left, .slider_right{
+        width:90%;
+    }
+
+    .slider_left{
+        margin-bottom:10px;
+    }
+}
+
+
+@include media('<545px') {
+    // 추가
+    .portfolioContant_inner {
+        margin-top: 100px;
+    }
+
+    #fp-nav.fp-right {
+        right: 0;
+    }
+
+    .bg_box{
+        height:100vh;
+    }
+}
+
+
 @include media('<501px') {
+    .portfolioContant_inner{
+        margin-top:40px;
+    }
+
+    .slider_left, .slider_right{
+        width:95%;
+    }
+
+    .slider_left{
+        margin-bottom:0;
+    }
+
     .slider_sub {
         font-size: 16px;
     }
@@ -643,5 +691,21 @@
     .notion_box,
     .git_box {
         padding: 5px 10px;
+    }
+}
+
+
+@include media('<426px') {
+    // 추가
+    .portfolioContant_inner {
+        margin-top: 60px;
+    }
+}
+
+
+@include media('<376px') {
+    // 추가
+    .portfolioContant_inner {
+        margin-top: 30px;
     }
 }
