@@ -317,13 +317,14 @@
         // margin-top:8%;
         margin-top: 0;
 
-        height: calc(100vh - 230px);
+        // height: calc(100vh - 230px);
     }
 
     .about_left,
     .about_right {
         // width:65%;
-        width: 80%;
+        // width: 80%;
+        width: 90%;
     }
 
     .about_title {
@@ -361,7 +362,6 @@
 
 
 @include media('<501px') {
-
     .about_left,
     .about_right {
         width: 95%;

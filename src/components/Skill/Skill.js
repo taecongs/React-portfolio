@@ -133,7 +133,7 @@ const Skill = () => {
 
                 {/* 제이쿼리  */}
                 <div className='skill_box4'>
-                    <div className='skill_card'>
+                    <div className='skill_card mob_top'>
                         <div className='skill_card_header_4'>
                             <img className="skill_card_icon wd_icon3" src={$skill4} alt="제이쿼리" />
                         </div>
@@ -153,7 +153,7 @@ const Skill = () => {
 
                 {/* 부트스트랩  */}
                 <div className='skill_box5'>
-                    <div className='skill_card down_1'>
+                    <div className='skill_card down_1 mod_bottom'>
                         <div className='skill_card_header_5'>
                             <img className="skill_card_icon" src={$skill5} alt="부트스트랩" />
                         </div>
@@ -172,7 +172,7 @@ const Skill = () => {
 
                 {/* 리엑트  */}
                 <div className='skill_box6'>
-                    <div className='skill_card'>
+                    <div className='skill_card mob_top'>
                         <div className='skill_card_header_6'>
                             <img className="skill_card_icon" src={$skill6} alt="리엑트" />
                         </div>
@@ -212,7 +212,7 @@ const Skill = () => {
 
                 {/* Node.js */}
                 <div className='skill_box8'>
-                    <div className='skill_card'>
+                    <div className='skill_card mod_bottom'>
                         <div className='skill_card_header_8'>
                             <img className="skill_card_icon wd_icon1" src={$skill8} alt="Nodejs" />
                         </div>
@@ -251,7 +251,7 @@ const Skill = () => {
 
                 {/* git */}
                 <div className='skill_box10'>
-                    <div className='skill_card'>
+                    <div className='skill_card mob_top'>
                         <div className='skill_card_header_10'>
                             <img className="skill_card_icon" src={$skill10} alt="git" />
                         </div>
@@ -270,7 +270,7 @@ const Skill = () => {
 
                 {/* Slack */}
                 <div className='skill_box11'>
-                    <div className='skill_card down_1'>
+                    <div className='skill_card down_1 mod_bottom'>
                         <div className='skill_card_header_11'>
                             <img className="skill_card_icon wd_icon2" src={$skill11} alt="slack" />
                         </div>
@@ -289,7 +289,7 @@ const Skill = () => {
 
                 {/* 포토샵 */}
                 <div className='skill_box12'>
-                    <div className='skill_card'>
+                    <div className='skill_card mob_top'>
                         <div className='skill_card_header_12'>
                             <img className="skill_card_icon" src={$skill12} alt="포토샵" />
                         </div>
