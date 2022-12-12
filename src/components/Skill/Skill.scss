@@ -905,6 +905,7 @@
 @include media('<518px') {
     .skillContant_inner {
         // margin-top: 400px;
+        height:calc(100vh - 180px);
     }
 
     .skill_card {
