@@ -368,7 +368,8 @@
 @include media('<2001px') {
     .portfolioContant_inner {
         width: 100%;
-        margin-top: 5%;
+        margin-top: 0;
+        height:calc(100vh - 350px);
     }
 
 
@@ -438,6 +439,10 @@
 
 
 @include media('<1441px') {
+    .portfolioContant_inner{
+        height:calc(100vh - 450px);
+    }
+
     .slider_sub {
         font-size: 18px;
         padding-bottom: 1rem;
@@ -472,6 +477,13 @@
 
     .slick-dots {
         margin-top: 2% !important;
+    }
+}
+
+
+@include media('<1271px'){
+    .portfolioContant_inner{
+        height:calc(100vh - 550px);
     }
 }
 
@@ -529,7 +541,6 @@
 
 
 @include media('<1025px') {
-
     .site_box,
     .notion_box,
     .git_box {
@@ -669,6 +680,7 @@
 @include media('<501px') {
     .portfolioContant_inner{
         // margin-top:40px;
+        height:calc(100vh - 170px);
     }
 
     .slider_left, .slider_right{
@@ -699,6 +711,10 @@
     .notion_box,
     .git_box {
         padding: 5px 10px;
+    }
+
+    .slick-dots{
+        margin-top:3% !important;
     }
 }
 

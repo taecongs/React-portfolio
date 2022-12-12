@@ -687,6 +687,13 @@
 }
 
 
+@include media('<1025px'){
+    *::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
 @include media('<1011px') {
     .skill_card {
         width: 160px;
