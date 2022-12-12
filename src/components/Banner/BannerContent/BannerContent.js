@@ -46,7 +46,7 @@ const BannerContent = () => {
             </div>
 
             <div className='banner_detail'>
-                <small>해당 홈페이지는 React 기반으로 제작되었으며, 해상도는 PC버전을 기준으로 최적화되어 있습니다.</small>
+                <small>해당 홈페이지는 React 기반으로 제작되었으며, 해상도는 PC버전(1920 X 1080)을 기준으로 최적화되어 있습니다.</small>
                 {/* <small>해당 홈페이지의 해상도는 PC버전을 기준으로 최적화되어 있습니다.</small> */}
             </div>
         </article>
