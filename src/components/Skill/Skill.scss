@@ -928,3 +928,34 @@
         width: 210px;
     }    
 }
+
+
+@include media('<488px') {
+    .skillContant_inner{
+        margin-top:450px;
+    }
+
+    .skill_card {
+        width: 180px;
+    }    
+}
+
+
+@include media('<424px') {
+    .skill_card {
+        width: 160px;
+    }   
+}
+
+
+@include media('<378px') {
+    .skill_card {
+        width: 155px;
+    }     
+}
+
+@include media('<368px') {
+    .skill_card {
+        width: 145px;
+    }     
+}
