@@ -48,7 +48,7 @@
     // width:50%;
     width: calc(50% - 100px);
     position: relative;
-    padding-left: 14.5%;
+    padding-left: 14.9%;
 }
 
 
@@ -286,7 +286,7 @@
 =========================================================*/
 .slider_right {
     width: calc(50% - 50px);
-    padding-right: 13.5%;
+    padding-right: 14.3%;
 }
 
 .mokup_box {
@@ -363,6 +363,23 @@
     반응형 기준점 정의
     2001, 1801, 1441, 1251, 1101, 1001, 901, 501
 =========================================================*/
+@include media('<2111px'){
+    // .portfolioContant_inner{
+    //     margin-top:3%;
+    // }
+
+    // .slider_left{
+    //     padding-left:7.4%;
+    // }
+
+    // .slider_right{
+    //     padding-right:6.7%;
+    // }
+}
+
+
+
+
 @include media('<2001px') {
     .portfolioContant_inner {
         width: 100%;
