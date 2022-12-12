@@ -22,7 +22,6 @@ const Portfolio = () => {
         slidesToScroll: 1
     };
 
-
     // 페이지 스크롤 애니메이션 정의
     const options = {
         root: null,
