@@ -342,7 +342,10 @@
 
 @include media('<1281px'){
     .contactContant_inner{
-        height: calc(100vh - 350px);
+        // height: calc(100vh - 350px);
+        height:100vh;
+        margin-top:27%;
+        margin-bottom:30px;
     }          
 }
 
