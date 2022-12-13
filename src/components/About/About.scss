@@ -1,5 +1,9 @@
 @import '~include-media/dist/include-media';
 
+*::-webkit-scrollbar {
+	display: none;
+}
+
 .fp-overflow{
     height:100vh;
     display:flex;
