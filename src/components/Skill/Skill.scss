@@ -235,7 +235,6 @@
 .skill_card:hover .skill_card_header_10,
 .skill_card:hover .skill_card_header_11,
 .skill_card:hover .skill_card_header_12 {
-    // height: 40px;
     height: 0;
 }
 
@@ -258,8 +257,6 @@
 
 
 .skill_card:hover .skill_card_body {
-    // height: 170px;
-    // height: 210px;
     height: 240px;
 }
 
@@ -338,18 +335,10 @@
 /*=========================================================
     페이지 스크롤 시 애니메이션 정의
 =========================================================*/
-.skill_box1,
-.skill_box2,
-.skill_box3,
-.skill_box4,
-.skill_box5,
-.skill_box6,
-.skill_box7,
-.skill_box8,
-.skill_box9,
-.skill_box10,
-.skill_box11,
-.skill_box12 {
+.skill_box1, .skill_box2, .skill_box3,
+.skill_box4, .skill_box5, .skill_box6,
+.skill_box7, .skill_box8, .skill_box9,
+.skill_box10, .skill_box11, .skill_box12 {
     opacity: 0;
     transform: translateY(50%);
     transition: .8s;
@@ -367,7 +356,6 @@
 .skill_box2.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 0.4s;
     transition-delay: 0.3s;
 }
 
@@ -375,7 +363,6 @@
 .skill_box3.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 0.7s;
     transition-delay: 0.5s;
 }
 
@@ -383,7 +370,6 @@
 .skill_box4.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 1.0s;
     transition-delay: 0.8s;
 }
 
@@ -391,7 +377,6 @@
 .skill_box5.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 1.3s;
     transition-delay: 1.1s;
 }
 
@@ -399,7 +384,6 @@
 .skill_box6.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 1.6s;
     transition-delay: 1.4s;
 }
 
@@ -407,7 +391,6 @@
 .skill_box7.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 1.9s;
     transition-delay: 1.7s;
 }
 
@@ -415,7 +398,6 @@
 .skill_box8.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 2.2s;
     transition-delay: 2.0s;
 }
 
@@ -423,7 +405,6 @@
 .skill_box9.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 2.5s;
     transition-delay: 2.3s;
 }
 
@@ -431,7 +412,6 @@
 .skill_box10.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 2.8s;
     transition-delay: 2.6s;
 }
 
@@ -439,7 +419,6 @@
 .skill_box11.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 3.1s;
     transition-delay: 2.9s;
 }
 
@@ -447,7 +426,6 @@
 .skill_box12.active_skill {
     opacity: 1;
     transform: translateY(0);
-    // transition-delay: 3.4s;
     transition-delay: 3.2s;
 }
 
@@ -459,7 +437,9 @@
 
     Skill 페이지 반응형 기준점 정의
     2001, 1907, 1801, 1683, 1644, 1567, 1490, 1413,
-    1336, 1327, 1327, 1216, 1113, 1011, 908
+    1336, 1327, 1283, 1267, 1251, 1113, 1025, 1011,
+    1001, 957, 901, 876, 787, 743, 718, 652, 585, 552,
+    518, 501, 488, 424, 378, 368
 =========================================================*/
 @include media('<2001px') {
     .skillContant_inner {
@@ -488,10 +468,6 @@
     .skill_card:hover .skill_card_body {
         height: 210px;
     }
-
-    .active_skill {
-        // border: 1px solid red;
-    }
 }
 
 
@@ -505,7 +481,6 @@
 @include media('<1801px') {
     .skillContant_inner {
         width: 78%;
-        // margin-top: 5%;
         height:calc(100vh - 520px);
         gap: 20px;
     }
@@ -644,11 +619,6 @@
     .skillContant_inner{
         height:calc(100vh - 520px);
     }
-
-    .skill_card {
-        // width: 240px;
-    }
-
 }
 
 
@@ -661,7 +631,6 @@
 
 @include media('<1283px') {
     .skillContant_inner{
-        // height:calc(100vh - 520px);
         height:auto;
     }
 
@@ -800,10 +769,6 @@
 
 
 @include media('<901px') {
-    *::-webkit-scrollbar {
-        // display: none;
-    }
-
     // 원페이지 앵커 정의
     #fp-nav.fp-right {
         right: 9px;
@@ -817,18 +782,10 @@
         width: 180px;
     }
 
-    .skill_box1,
-    .skill_box2,
-    .skill_box3,
-    .skill_box4,
-    .skill_box5,
-    .skill_box6,
-    .skill_box7,
-    .skill_box8,
-    .skill_box9,
-    .skill_box10,
-    .skill_box11,
-    .skill_box12 {
+    .skill_box1, .skill_box2, .skill_box3,
+    .skill_box4, .skill_box5, .skill_box6,
+    .skill_box7, .skill_box8, .skill_box9,
+    .skill_box10, .skill_box11, .skill_box12 {
         opacity: 1;
         transform: none;
         transition: none;
@@ -860,7 +817,6 @@
 
 @include media('<743px') {
     .skillContant_inner {
-        // margin-top: 10%;
         height:calc(100vh - 190px);
     }
 
@@ -934,7 +890,6 @@
 
 @include media('<518px') {
     .skillContant_inner {
-        // margin-top: 400px;
         height:calc(100vh - 180px);
     }
 
@@ -961,10 +916,6 @@
 
 
 @include media('<501px') {
-    .skillContant_inner {
-        // margin-top: 390px;
-    }
-
     .skill_card {
         width: 210px;
     }
@@ -972,10 +923,6 @@
 
 
 @include media('<488px') {
-    .skillContant_inner {
-        // margin-top: 450px;
-    }
-
     .skill_card {
         width: 180px;
     }
