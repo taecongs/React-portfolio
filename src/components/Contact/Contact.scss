@@ -368,6 +368,7 @@
 @include media('<1025px') {
     .contactContant_inner{
         height: calc(100vh - 300px);
+        margin-top:0;
     }   
 
     .notion_box2, .git_box2{
