@@ -707,8 +707,8 @@
 
 
 @include media('<1025px'){
-    *::-webkit-scrollbar {
-        // display: none;
+    .skill_card .skill_card_body .skill_card_title{
+        font-size:14px;
     }
 }
 
