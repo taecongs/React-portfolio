@@ -114,19 +114,19 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='http://seryeong.cloud:3000/' target='_blank'>
+                                        <a href='http://seryeong.cloud:3000/' target='_blank' rel='noopener noreferrer'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/a3bb0a772b0a4494b5cfc9db603ac806' target='_blank'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/a3bb0a772b0a4494b5cfc9db603ac806' target='_blank' rel='noopener noreferrer'>
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='git_box'>
-                                        <a href='https://github.com/tmr-mohaji/mohaji' target='_blank'>
+                                        <a href='https://github.com/tmr-mohaji/mohaji' target='_blank' rel='noopener noreferrer'>
                                             <span className='git_text'>깃헙 바로가기</span>
                                         </a>
                                     </div>
@@ -167,19 +167,19 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='http://27.96.130.163:8081/' target='_blank'>
+                                        <a href='http://27.96.130.163:8081/' target='_blank' rel='noopener noreferrer'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/3a799ac82ebd45fdaa193cce175ad719' target='_blank'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/3a799ac82ebd45fdaa193cce175ad719' target='_blank' rel='noopener noreferrer'>
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='git_box'>
-                                        <a href='https://github.com/taecongs/youtube_clone' target='_blank'>
+                                        <a href='https://github.com/taecongs/youtube_clone' target='_blank' rel='noopener noreferrer'>
                                             <span className='git_text'>깃헙 바로가기</span>
                                         </a>
                                     </div>
@@ -220,19 +220,19 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='http://27.96.130.163:8080/' target='_blank'>
+                                        <a href='http://27.96.130.163:8080/' target='_blank' rel='noopener noreferrer'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/f531c07b089b4ff091fb07d3d3894a6a' target='_blank'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/f531c07b089b4ff091fb07d3d3894a6a' target='_blank' rel='noopener noreferrer'>
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='git_box'>
-                                        <a href='https://github.com/taecongs/personal-project1' target='_blank'>
+                                        <a href='https://github.com/taecongs/personal-project1' target='_blank' rel='noopener noreferrer'>
                                             <span className='git_text'>깃헙 바로가기</span>
                                         </a>
                                     </div>
@@ -272,19 +272,19 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='https://hamayj.today:8080/' target='_blank'>
+                                        <a href='https://hamayj.today:8080/' target='_blank' rel='noopener noreferrer'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/Look-For-Weather-ecb8ac4175684f53b231d6fdad634cae' target='_blank'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/Look-For-Weather-ecb8ac4175684f53b231d6fdad634cae' target='_blank' rel='noopener noreferrer'>
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='git_box'>
-                                        <a href='https://github.com/team5-LookForWeather/SeSAC-LFW' target='_blank'>
+                                        <a href='https://github.com/team5-LookForWeather/SeSAC-LFW' target='_blank' rel='noopener noreferrer'>
                                             <span className='git_text'>깃헙 바로가기</span>
                                         </a>
                                     </div>
