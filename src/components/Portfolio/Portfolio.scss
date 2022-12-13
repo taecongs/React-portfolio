@@ -489,11 +489,11 @@
 @include media('<1281px'){
     .portfolioContant_inner{
         // height:calc(100vh - 450px);
-        height:100vh;
+        height:calc(100vh - 250px);
     }
 
     .sider_box{
-        height:100vh;
+        height:80vh;
     }
 
     .slick-dots{

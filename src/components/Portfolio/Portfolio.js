@@ -86,7 +86,7 @@ const Portfolio = () => {
 
                 <div className='portfolioContant_inner'>
 
-                    <Slider {...settings}>
+                    <Slider {...settings} className='s_s'>
                         <div className='sider_box'>
                             <div className='slider_left'>
                                 <p className='slider_sub'>01 - 팀 프로젝트</p>
