@@ -638,47 +638,49 @@
 
 @include media('<1336px') {
     .skillContant_inner{
-        height:calc(100vh - 350px);
+        height:calc(100vh - 520px);
     }
 
     .skill_card {
-        width: 240px;
+        // width: 240px;
     }
 
-    .skill_card .skill_card_header_1,
-    .skill_card .skill_card_header_2,
-    .skill_card .skill_card_header_3,
-    .skill_card .skill_card_header_4,
-    .skill_card .skill_card_header_5,
-    .skill_card .skill_card_header_6,
-    .skill_card .skill_card_header_7,
-    .skill_card .skill_card_header_8,
-    .skill_card .skill_card_header_9,
-    .skill_card .skill_card_header_10,
-    .skill_card .skill_card_header_11,
-    .skill_card .skill_card_header_12 {
-        height: 150px;
-    }
-
-    .skill_card:hover .skill_card_body {
-        height: 170px;
-    }
 }
 
 
 @include media('<1327px') {
     .skill_card {
-        width: 220px;
+        width: 150px;
     }
 }
 
 
-@include media('<1281px') {
+@include media('<1283px') {
+    .skillContant_inner{
+        height:calc(100vh - 520px);
+    }
 
+    .skill_card{
+        width:145px;
+    }
+
+    .wd_icon3, .wd_icon2{
+        width:120px !important;
+        height:80px !important;
+    }
+
+    .wd_icon1{
+        width:100px !important;
+        height:100px !important;
+    }
 }
 
 
-@include media('<1216px') {
+@include media('<1244px') {
+    .skillContant_inner{
+        height:calc(100vh - 350px);
+    }
+
     .skill_card {
         width: 200px;
     }
