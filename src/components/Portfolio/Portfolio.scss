@@ -482,8 +482,16 @@
 
 
 @include media('<1281px'){
+    .bg_box{
+        border:1px solid blue;
+    }
+
     .portfolioContant_inner{
-        height:calc(100vh - 550px);
+        height:calc(100vh - 450px);
+    }
+
+    .slick-dots{
+        border:1px solid red;
     }
 }
 
