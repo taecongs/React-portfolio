@@ -673,6 +673,11 @@
 }
 
 
+@include media('<1281px') {
+
+}
+
+
 @include media('<1216px') {
     .skill_card {
         width: 200px;
