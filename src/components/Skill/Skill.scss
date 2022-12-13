@@ -698,7 +698,7 @@
 
 @include media('<1025px'){
     *::-webkit-scrollbar {
-        display: none;
+        // display: none;
     }
 }
 
@@ -791,7 +791,7 @@
 
 @include media('<901px') {
     *::-webkit-scrollbar {
-        display: none;
+        // display: none;
     }
 
     // 원페이지 앵커 정의

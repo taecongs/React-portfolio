@@ -1,5 +1,9 @@
 @import '~include-media/dist/include-media';
 
+// 공통 CSS 정의
+@import '../Commons/Commons.scss';
+
+
 .portfolio_container .fp-overflow {
     overflow-x: hidden;
 }
@@ -579,7 +583,7 @@
 
 @include media('<901px') {
     *::-webkit-scrollbar {
-        display: none;
+        // display: none;
     }
 
     .portfolioContant_inner {
