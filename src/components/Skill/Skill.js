@@ -203,8 +203,8 @@ const Skill = () => {
 
                             <ul className="skill_card_knowledge">
                                 <li>Front-end</li>
-                                <li>변수 선언 및 상속</li>
-                                <li>스타일 코드의 재활용(&) 및 코드의 가독성 </li>
+                                <li>스타일 코드의 재활용(&) 경험</li>
+                                <li>코드의 가독성</li>
                             </ul>
                         </div>
                     </div>
