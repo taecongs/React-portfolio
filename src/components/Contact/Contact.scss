@@ -10,18 +10,14 @@
 .contact_container {
     width: 100%;
     height: 100vh;
-    // background:#141414;
     background: #f9f9f9;
 }
 
 
 .contactContant_inner {
     width: 1800px;
-    // height: 100vh;
     margin: 0 auto;
     position: relative;
-    // display: flex;
-    // flex-wrap: wrap;
 }
 
 
@@ -76,13 +72,10 @@
     cursor: pointer;
     font-family: 'Chosunilbo_myungjo';
     font-weight: 600;
-
     background: url(./img/arrow_1.png) no-repeat;
-    // background-size: 15px 10px;
     background-size: 18px 11px;
     background-position-x: calc(100% - 10px);
     background-position-y: center;
-
     transition: max-height .2s ease-out;
 }
 
@@ -291,16 +284,15 @@
 
 /*=========================================================
     반응형 기준점 정의
-    2001, 1801, 1441, 1251, 1101, 1001, 
-    901, 701, 545, 501, 376
+    2001, 1801, 1441, 1281, 1251, 1025, 1101, 901, 501
 =========================================================*/
 @include media('<2001px') {
     .contactContant_inner{
         width:83%;
-        // height:calc(100vh - 250px);
         margin-top:4%;
     }
 }
+
 
 @include media('<1801px') {
     .contactContant_inner{
@@ -354,7 +346,6 @@
 
 @include media('<1281px'){
     .contactContant_inner{
-        // height: calc(100vh - 350px);
         height:100vh;
         margin-top:27%;
         margin-bottom:30px;

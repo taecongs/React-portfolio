@@ -15,7 +15,6 @@
 .portfolio_container {
     width: 100%;
     height: 100vh;
-    // background: url(./img/b_background.jpg) left top/100% 100% no-repeat;
     background-image: linear-gradient(to right, #f5f5f5 50%, #f0f0f0 50%);
 }
 
@@ -30,7 +29,6 @@
 
 .portfolioContant_inner {
     width: 100%;
-    // max-width: 2500px;
     margin: 0 auto;
     position: relative;
 }
@@ -51,7 +49,6 @@
     slier 왼쪽 정의
 =========================================================*/
 .slider_left {
-    // width:50%;
     width: calc(50% - 100px);
     position: relative;
     padding-left: 14.9%;
@@ -163,10 +160,7 @@
     gap: 20px;
 }
 
-.site_box,
-.notion_box,
-.git_box {
-    // width:180px;
+.site_box, .notion_box, .git_box {
     box-sizing: border-box;
     cursor: pointer;
     transition: all .3s;
@@ -300,7 +294,6 @@
 }
 
 .mokup_img {
-    // width:95%;
     width: 95%;
 }
 
@@ -367,8 +360,8 @@
 
 /*=========================================================
     반응형 기준점 정의
-    2001, 1801, 1441, 1251, 1101, 1001, 
-    901, 701, 545, 501, 426, 376
+    2001, 1801, 1441, 1281, 1251, 1101, 
+    1025, 1001, 769, 701, 545, 501
 =========================================================*/
 @include media('<2001px') {
     .portfolioContant_inner {
@@ -468,15 +461,11 @@
     }
 
     // 버튼 관련 정의
-    .site_box,
-    .notion_box,
-    .git_box {
+    .site_box, .notion_box, .git_box {
         padding: 10px;
     }
 
-    .site_text,
-    .notion_text,
-    .git_text {
+    .site_text, .notion_text, .git_text {
         font-size: 12px;
     }
 
@@ -488,7 +477,6 @@
 
 @include media('<1281px'){
     .portfolioContant_inner{
-        // height:calc(100vh - 450px);
         height:calc(100vh - 250px);
     }
 
@@ -526,9 +514,7 @@
         font-size: 16px;
     }
 
-    .site_text,
-    .notion_text,
-    .git_text {
+    .site_text, .notion_text, .git_text {
         font-size: 10px;
     }
 }
@@ -547,24 +533,18 @@
         font-size: 14px;
     }
 
-    .site_text,
-    .notion_text,
-    .git_text {
+    .site_text, .notion_text, .git_text {
         margin-left: 20px;
     }
 
-    .site_box:hover a,
-    .notion_box:hover a,
-    .git_box:hover a {
+    .site_box:hover a, .notion_box:hover a, .git_box:hover a {
         background-size: 15%;
     }
 }
 
 
 @include media('<1025px') {
-    .site_box,
-    .notion_box,
-    .git_box {
+    .site_box, .notion_box, .git_box {
         padding: 5px;
     }
 }
@@ -586,16 +566,9 @@
 
 
 @include media('<901px') {
-    *::-webkit-scrollbar {
-        // display: none;
-    }
-
     .portfolioContant_inner {
-        // margin-top:12%;
         width: 90%;
-        // margin-top:150px;
         margin-top:0;
-
         height: calc(100vh - 160px);
     }
 
@@ -617,7 +590,6 @@
         opacity: 1;
         left: 0;
         padding-left: 0;
-        // width: 100%;
         width: 65%;
         margin-top: 30px;
         margin-bottom: 10px;
@@ -627,14 +599,11 @@
         opacity: 1;
         right: 0;
         padding-right: 0;
-        // width: 100%;
         width:65%;
         transition: none;
     }
 
-    .site_box,
-    .notion_box,
-    .git_box {
+    .site_box, .notion_box, .git_box {
         padding: 10px 20px;
     }
 
@@ -652,7 +621,6 @@
         margin-top: 0 !important;
     }
 
-
     // 추가 
     .mokup_box {
         text-align: center;
@@ -665,10 +633,6 @@
 
 
 @include media('<769px'){
-    .portfolioContant_inner{
-        // margin-top:100px;
-    }
-
     #fp-nav.fp-right{
         right:5px !important;
     }
@@ -687,11 +651,6 @@
 
 
 @include media('<545px') {
-    // 추가
-    .portfolioContant_inner {
-        // margin-top: 100px;
-    }
-
     #fp-nav.fp-right {
         right: 0;
     }
@@ -704,7 +663,6 @@
 
 @include media('<501px') {
     .portfolioContant_inner{
-        // margin-top:40px;
         height:calc(100vh - 170px);
     }
 
@@ -732,29 +690,11 @@
         right: 2px !important;
     }
 
-    .site_box,
-    .notion_box,
-    .git_box {
+    .site_box, .notion_box, .git_box {
         padding: 5px 10px;
     }
 
     .slick-dots{
         margin-top:0 !important;
-    }
-}
-
-
-@include media('<426px') {
-    // 추가
-    .portfolioContant_inner {
-        // margin-top: 60px;
-    }
-}
-
-
-@include media('<376px') {
-    // 추가
-    .portfolioContant_inner {
-        // margin-top: 30px;
     }
 }
