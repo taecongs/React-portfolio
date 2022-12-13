@@ -488,7 +488,12 @@
 
 @include media('<1281px'){
     .portfolioContant_inner{
-        height:calc(100vh - 450px);
+        // height:calc(100vh - 450px);
+        height:100vh;
+    }
+
+    .sider_box{
+        height:100vh;
     }
 
     .slick-dots{
@@ -651,6 +656,10 @@
     // 추가 
     .mokup_box {
         text-align: center;
+    }
+
+    .sider_box{
+        height:auto;
     }
 }
 
