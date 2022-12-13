@@ -239,7 +239,11 @@
 }
 
 
-@include media('<1271px'){
+@include media('<1281px'){
+    .aboutContant_inner{
+        margin-top:7%;
+    }
+
     // 어바웃 타이틀 문구
     .about_title {
         font-size: 22px;
@@ -268,8 +272,7 @@
         font-size: 16px;
     }
 
-    .av_1,
-    .av_2 {
+    .av_1, .av_2 {
         margin-top: 1.2rem;
     }
 
