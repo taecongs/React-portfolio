@@ -1,7 +1,7 @@
 @import '~include-media/dist/include-media';
 
 /*=========================================================
-    
+    배너 정의
 =========================================================*/
 article {
 	width: 100%;
@@ -14,7 +14,7 @@ article {
 
 
 /*=========================================================
-    
+    배너 세부 정의
 =========================================================*/
 .bannerContant_inner {
 	width: 1800px;
@@ -24,7 +24,7 @@ article {
 
 
 /*=========================================================
-    
+    배너 타이틀
 =========================================================*/
 .banner_title {
 	// margin-left: 37px;
@@ -35,12 +35,13 @@ article {
 }
 
 
-
+/*=========================================================
+    배너 서브 타이틀
+=========================================================*/
 .banner_p {
 	margin-left: -40px;
 	font-size: 16px;
 	opacity: 0;
-	// font-family: 'S-CoreDream-3Light';
 	font-family: 'Chosunilbo_myungjo';
 	letter-spacing: 1px;
 	animation: textup 1s ease-in-out forwards;
@@ -62,7 +63,7 @@ article {
 
 
 /*=========================================================
-    
+    배너 원 정의
 =========================================================*/
 .banner_bg {
 	position: absolute;
@@ -139,7 +140,6 @@ article {
 	letter-spacing: 1px;
 	color: #fff;
 	text-align: center;
-	// font-family: 'S-CoreDream-3Light';
 	font-family: 'Chosunilbo_myungjo';
 }
 
@@ -149,6 +149,11 @@ article {
 }
 
 
+
+/*=========================================================
+    반응형 기준점 정의
+    2001, 1801, 1441, 1281, 1251, 1025, 1001, 901, 501
+=========================================================*/
 @include media('<2001px') {
 	.bannerContant_inner {
 		width: 86%;
@@ -178,7 +183,6 @@ article {
 		right: -1300px;
 		bottom: -650px;
 		animation: ball1-1 3s linear infinite alternate;
-		// animation:none;
 	}
 
 
@@ -186,7 +190,6 @@ article {
 		right: -890px;
 		bottom: -130px;
 		animation: ball1-2 3s linear infinite alternate;
-		// animation: none;
 	}
 
 	@keyframes ball1-1 {
@@ -244,7 +247,6 @@ article {
 		right: -1170px;
 		bottom: -630px;
 		animation: ball1-1 3s linear infinite alternate;
-		// animation:none;
 	}
 
 
@@ -252,7 +254,6 @@ article {
 		right: -790px;
 		bottom: -120px;
 		animation: ball1-2 3s linear infinite alternate;
-		// animation: none;
 	}	
 
 	@keyframes ball1-1 {
@@ -386,7 +387,6 @@ article {
 		right: -800px;
 		bottom: -650px;
 		animation: ball1-1 3s linear infinite alternate;
-		// animation:none;
 	}
 
 
@@ -394,7 +394,6 @@ article {
 		right: -440px;
 		bottom: -210px;
 		animation: ball1-2 3s linear infinite alternate;
-		// animation: none;
 	}	
 	
 	@keyframes ball1-1 {
@@ -446,7 +445,6 @@ article {
 		right: -520px;
 		bottom: -680px;
 		animation: ball1-1 3s linear infinite alternate;
-		// animation:none;
 	}
 
 
@@ -454,7 +452,6 @@ article {
 		right: -200px;
 		bottom: -260px;
 		animation: ball1-2 3s linear infinite alternate;
-		// animation: none;
 	}	
 
 	@keyframes ball1-1 {

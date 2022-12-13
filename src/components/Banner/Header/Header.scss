@@ -20,7 +20,6 @@ header{
     position:fixed;
     z-index:300;
     transition: background-color 0.5s;
-
     display:flex;
     align-items: center;
 }
@@ -139,17 +138,10 @@ header{
 
 
 
-
-
-
-
-@include media('<2561px'){
-    .header_inner{
-        // width:71%;
-    }
-}
-
-
+/*=========================================================
+    반응형 기준점 정의
+    2001, 1801, 1251, 1001, 901
+=========================================================*/
 
 @include media('<2001px'){
     .header_inner{
@@ -184,8 +176,6 @@ header{
 }
 
 
-
-
 @include media('<1251px'){
 	.header_logo, .logo_black{
 		font-size:18px;
@@ -201,6 +191,7 @@ header{
 	} 
 }
 
+
 @include media('<1001px'){
     .header_logo, .logo_black{
         font-size:16px;
@@ -215,7 +206,6 @@ header{
         width:500px;
     }
 }
-
 
 
 @include media('<901px'){
