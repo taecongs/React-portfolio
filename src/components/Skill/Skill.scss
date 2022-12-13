@@ -677,7 +677,8 @@
 }
 
 
-@include media('<1244px') {
+// 1244 -> 1267
+@include media('<1267px') {
     .skillContant_inner{
         height:calc(100vh - 350px);
     }

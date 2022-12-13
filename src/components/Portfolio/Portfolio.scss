@@ -482,20 +482,23 @@
 
 
 @include media('<1281px'){
-    .bg_box{
-        // border:1px solid blue;
-    }
-
     .portfolioContant_inner{
-        height:calc(100vh - 450px);
+        // height:calc(100vh - 450px);
+        height:auto;
     }
 
     .slick-dots{
-        // border:1px solid red;
+        border:1px solid red;
+        animation: none;
+        transition: none;
     }
 
     .slder_link{
         gap:10px;
+    }
+
+    .sider_box{
+        height:calc(100vh - 450px);
     }
 }
 
