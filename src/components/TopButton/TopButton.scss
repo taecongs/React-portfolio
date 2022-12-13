@@ -1,0 +1,40 @@
+@import '~include-media/dist/include-media';
+
+
+.scroll__container {
+    position: fixed;
+    right: 3.5%;
+    bottom: 5%;
+    z-index: 1;
+}
+
+#top_btn {
+    display: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 10px;
+    background: #000;
+    border:1px solid #000;
+    color: #fff;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Chosunilbo_myungjo';
+}
+
+
+
+#top_btn:hover {
+    color:#fff;
+    background:#6b60e5;
+    border:1px solid #6b60e5;
+}
+
+
+
+@include media('<501px'){
+    #top_btn{
+        font-size:12px;
+        padding:10px 5px;
+    }
+}

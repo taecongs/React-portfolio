@@ -4,6 +4,7 @@ import ReactFullpage from '@fullpage/react-fullpage';
 
 import Sidebar from './components/Banner/Sidebar/Sidebar';
 import Header from './components/Banner/Header/Header';
+import TopButton from './components/TopButton/TopButton';
 
 import Banner from './components/Banner/Banner';
 import About from './components/About/About';
@@ -16,8 +17,6 @@ const SECTION_SEL = `.${SEL}`;
 
 const App = () => {
     const onLeave = (origin, destination, direction) => {
-        // console.log("onLeave", { origin, destination, direction });
-        // console.log('99999', destination.anchor);
 
         let $header = document.querySelectorAll('header');
         let $logo = document.querySelectorAll('.header_inner h1');
@@ -26,9 +25,12 @@ const App = () => {
 
         // 배경 검정색 => dot:#fff | 배경 밝은색 => dot : #000
         let $dot = document.querySelectorAll('#fp-nav ul li a span, .fp-slidesNav ul li a span');
-
+        let $top = document.querySelector('#top_btn');
 
         if (destination.anchor === 'home') {
+            // top 버튼            
+            $top.style.display = 'none';
+
             $header[0].classList.remove('header_bg');
 
             // 로고 관련
@@ -56,8 +58,10 @@ const App = () => {
 
 
 
-
         } else if (destination.anchor === 'about') {
+            // top 버튼            
+            $top.style.display = 'block';
+
             $header[0].className = 'header_bg';
 
             // 로고
@@ -85,6 +89,9 @@ const App = () => {
 
 
         } else if (destination.anchor === 'skill') {
+            // top 버튼            
+            $top.style.display = 'block';
+
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
 
@@ -110,6 +117,9 @@ const App = () => {
 
 
         } else if (destination.anchor === 'portfolio') {
+            // top 버튼
+            $top.style.display = 'block';
+
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
 
@@ -135,6 +145,9 @@ const App = () => {
 
 
         } else if (destination.anchor === 'contact') {
+            // top 버튼
+            $top.style.display = 'block';
+
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
             console.log('dsdsdsa23213', $dot);
@@ -165,6 +178,7 @@ const App = () => {
             <div id="cover" className="cover_left"></div>
             <Sidebar />
             <Header />
+            <TopButton />
 
             <ReactFullpage
                 debug
