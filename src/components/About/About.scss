@@ -240,6 +240,14 @@
         font-size: 18px;
     }
 
+    .download_btn{
+        padding:15px 20px;
+    }
+
+    .download_btn{
+        font-size:12px;
+    }
+
 }
 
 
@@ -254,16 +262,8 @@
         line-height: 1.5;
     }
 
-    .download_btn{
-        padding:15px 20px;
-    }
-
     .av_1, .av_2{
         margin-top:1.2rem;
-    }
-
-    .download_btn{
-        font-size:12px;
     }
 }
 
@@ -287,8 +287,7 @@
     // 버튼
     .download_btn {
         width: 100px;
-        font-size: 12px;
-        padding: 15px 20px;
+        font-size: 10px;
     }
 
     .download_inner {

@@ -1,3 +1,9 @@
+@import '~include-media/dist/include-media';
+
+*::-webkit-scrollbar {
+	display: none;
+}
+
 /*=========================================================
     skill 컨테이너 정의
 =========================================================*/
@@ -24,7 +30,7 @@
 =========================================================*/
 .qa_box, .contact_box{
     opacity: 0;
-    transform: translateY(50%);
+    transform: translateY(10%);
     transition: .8s;
 }
 
@@ -109,7 +115,7 @@
 // active 되었을 시 세부 내용 보임
 .active_qa .qa_detail {
     display: block;
-    max-height: 150px;
+    max-height: 250px;
     transition: max-height .4s ease-out;
 }
 
@@ -279,4 +285,177 @@
 
 .git_box2:hover .git_text{
     color:#fff;    
+}
+
+
+
+/*=========================================================
+    반응형 기준점 정의
+    2001, 1801, 1441, 1251, 1101, 1001, 
+    901, 701, 545, 501, 376
+=========================================================*/
+@include media('<2001px') {
+    .contactContant_inner{
+        width:83%;
+        // height:calc(100vh - 250px);
+        margin-top:4%;
+    }
+}
+
+@include media('<1801px') {
+    .contactContant_inner{
+        width:78%;
+    }    
+}
+
+
+@include media('<1441px') {
+    .qa_title{
+        font-size:18px;
+    }
+
+    .qa_detail{
+        padding:20px 15px;
+    }
+
+    .category span{
+        font-size:16px;
+    }
+
+    .recruit_submit li h2{
+        font-size:20px;
+    }
+
+    .info_1, .info_2{
+        font-size:18px;
+    }
+
+    .qa_box{
+        margin-bottom:40px;
+    }
+
+    .notion_box2, .git_box2{
+        padding:10px;
+    }  
+}
+
+
+@include media('<1281px'){
+}
+
+
+@include media('<1251px') {
+    .qa_title{
+        font-size:16px;
+    }
+
+    .qa_detail{
+        font-size:12px;
+    }
+
+    .info_1, .info_2{
+        font-size:16px;
+    }
+}
+
+@include media('<1025px') {
+    .notion_box2, .git_box2{
+        padding:5px;
+    }    
+}
+
+
+@include media('<1101px') {
+    .qa_title{
+        font-size:14px;
+    }
+
+    .recruit_submit li h2{
+        font-size:18px;
+    }
+
+    .contact_link{
+        gap:10px;
+    }
+}
+
+
+@include media('<901px') {
+    .contactContant_inner{
+        width:90%;
+        margin-top:0;
+        height: calc(100vh - 250px);
+    }      
+
+    .qa_box, .contact_box{
+        transition: none;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .recruit_submit li:first-child{
+        background:url(./img/left_1.png)no-repeat right 25px bottom 23px #6b60e5;        
+    }
+
+    .qa_title{
+        font-size:18px;
+    }
+
+    .qa_detail{
+        font-size:14px;
+    }
+
+    .notion_box2, .git_box2{
+        padding:10px 20px;
+    }
+
+    .recruit_submit{
+        flex-direction: column;
+    }
+
+    .recruit_submit li{
+        width:100%;
+        height:200px;
+        padding:30px 16px 0;
+    }
+
+    .contact_info{
+        margin-top:20px;
+    }
+
+    .info_1{
+        margin-top:20px;
+    }
+}
+
+
+@include media('<501px') {
+
+    .qa_title{
+        font-size:14px;
+        height:55px;
+        line-height: 55px;
+    }
+
+    .qa_detail{
+        font-size:12px;
+    }
+
+    .category span{
+        font-size:14px;
+    }
+
+    .notion_box2, .git_box2{
+        padding:5px 10px;
+    }
+
+    .recruit_submit li:first-child{
+        background:url(./img/left_1.png)no-repeat right 10px bottom 23px #6b60e5;
+        background-size: 50px;
+    }
+
+    .recruit_submit li:last-child{
+        background:url(./img/right_1.png) no-repeat right 23px bottom 23px #faf1cd;
+        background-size: 35px;
+    }
 }

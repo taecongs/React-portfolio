@@ -692,6 +692,12 @@
     }
 }
 
+@include media('<1251px') {
+    .skill_card .skill_card_body .skill_card_title{
+        font-size:16px;
+    }
+}
+
 
 @include media('<1113px') {
     .skill_card {
@@ -826,6 +832,10 @@
         opacity: 1;
         transform: none;
         transition: none;
+    }
+
+    .skill_card .skill_card_body .skill_card_title{
+        font-size:18px;
     }
 }
 
