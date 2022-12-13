@@ -657,11 +657,12 @@
 
 @include media('<1283px') {
     .skillContant_inner{
-        height:calc(100vh - 520px);
+        // height:calc(100vh - 520px);
+        height:auto;
     }
 
     .skill_card{
-        width:145px;
+        width:148px;
     }
 
     .wd_icon3, .wd_icon2{
