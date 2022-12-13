@@ -488,12 +488,10 @@
 
 @include media('<1281px'){
     .portfolioContant_inner{
-        // height:calc(100vh - 450px);
-        height:auto;
+        height:calc(100vh - 450px);
     }
 
     .slick-dots{
-        border:1px solid red;
         animation: none;
         transition: none;
         margin-top:0 !important;
