@@ -473,3 +473,26 @@
         background-size: 35px;
     }
 }
+
+
+@include media('<361px') {
+    .contactContant_inner{
+        height:calc(100vh - 190px);
+    }
+
+    .qa_title, .active_qa .qa_title{
+        background-size: 12px 7px;
+    }
+
+    .recruit_submit li h2{
+        font-size:16px;
+    }
+
+    .info_1, .info_2{
+        font-size:14px;
+    }
+
+    .contact_link{
+        margin-top:16px;
+    }
+}

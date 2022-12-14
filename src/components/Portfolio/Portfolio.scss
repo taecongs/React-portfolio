@@ -698,3 +698,23 @@
         margin-top:0 !important;
     }
 }
+
+
+@include media('<361px') {
+    .portfolioContant_inner{
+        height:calc(100vh - 140px);        
+    }
+
+    .slider_title{
+        font-size:2rem;
+        margin-bottom:10px;
+    }
+
+    .git_text, .notion_text, .site_text{
+        letter-spacing: -1px;
+    }
+
+    .slder_link{
+        margin-bottom:15px;
+    }
+}
