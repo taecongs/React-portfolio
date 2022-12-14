@@ -405,3 +405,14 @@
         width: 1.5rem;
     }
 }
+
+
+@include media('<361px') {
+    .aboutContant_inner{
+        height:calc(100vh - 150px);
+    }
+
+    .about_title{
+        font-size:20px;
+    }
+}

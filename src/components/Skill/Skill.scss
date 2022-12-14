@@ -947,3 +947,18 @@
         width: 145px;
     }
 }
+
+
+@include media('<361px') {
+    .skillContant_inner{
+        height:calc(100vh - 150px);        
+    }
+
+    .skill_card{
+        width:150px;
+    }
+
+    .skill_card .skill_card_body{
+        height:15px;
+    }
+}

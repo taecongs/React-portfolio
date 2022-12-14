@@ -38,3 +38,10 @@
         padding:10px 5px;
     }
 }
+
+
+@include media('<361px') {
+    #top_btn{
+        font-size:10px;
+    }
+}
