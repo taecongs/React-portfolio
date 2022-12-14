@@ -558,3 +558,18 @@ article {
 		top:93.5%;
 	}
 }
+
+
+@include media('<361px') {
+	.banner_title{
+		font-size:2rem;
+	}
+
+	.banner_p{
+		font-size:10px;
+	}
+
+	.banner_detail{
+		letter-spacing: -0.05px;
+	}
+}
