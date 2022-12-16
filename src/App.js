@@ -27,8 +27,6 @@ const App = () => {
         let $dot = document.querySelectorAll('#fp-nav ul li a span, .fp-slidesNav ul li a span');
         let $top = document.querySelector('#top_btn');
 
-        $dot.style.background = '#fff';
-
         if (destination.anchor === 'home') {
             // top 버튼            
             $top.style.display = 'none';
