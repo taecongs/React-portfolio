@@ -189,3 +189,39 @@
     position: relative; 
     left:2px;
 }
+
+
+@include media('<501px'){
+    .ball, .ball:before{
+        width:30px;
+        height:30px;
+    }
+
+
+
+    .ball .plus_top{
+        width:10px;
+        height:10px;
+    }
+
+    .ball span{
+        width:25px;
+        height:25px;
+    }
+
+    .ball.active .third{
+        left:35px;
+    }
+
+    .gg_t{
+        left:-2px;
+    }
+
+    .ball.active .second{
+        top:12px;
+    }
+
+    .nn_t{
+        left:-2px;
+    }
+}
