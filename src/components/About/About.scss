@@ -1,13 +1,13 @@
 @import '~include-media/dist/include-media';
 
 *::-webkit-scrollbar {
-	display: none;
+    display: none;
 }
 
-.fp-overflow{
-    height:100vh;
-    display:flex;
-    align-items: center;    
+.fp-overflow {
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 /*=========================================================
@@ -72,7 +72,8 @@
     line-height: 1.8;
 }
 
-.av_1, .av_2 {
+.av_1,
+.av_2 {
     margin-top: 1.5rem;
 }
 
@@ -107,8 +108,9 @@
     이력서 다운로드
 =========================================================*/
 .download_inner {
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
+    // margin-top: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
 }
 
 .download_btn {
@@ -129,6 +131,50 @@
 .download_btn:hover {
     border: 1px solid #000;
     background: #000;
+    color: #fff;
+}
+
+.myintro_box {
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: 'Chosunilbo_myungjo';
+    padding: 15px 25px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+// 사이트 버튼 정의
+.myintro_box a {
+    display: flex;
+    align-items: center;
+    background: url(./img/myintro_b.png) no-repeat;
+    background-size: 20%;
+    background-position: left;
+    height: 30px;
+}
+
+.site_text {
+    margin-left: 30px;
+    font-family: 'Chosunilbo_myungjo';
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+//  사이트 버튼 호버 정의
+.myintro_box:hover {
+    border: 1px solid #000;
+    background: #000;
+}
+
+.myintro_box:hover a {
+    background: url(./img/myintro_w.png) no-repeat;
+    background-size: 20%;
+    background-position: left;
+}
+
+.myintro_box:hover .site_text {
     color: #fff;
 }
 
@@ -174,8 +220,8 @@
 @include media('<2001px') {
     .aboutContant_inner {
         width: 83%;
-        height:calc(100vh - 250px);
-        margin-top:4%;
+        height: calc(100vh - 250px);
+        margin-top: 4%;
     }
 
     // 어바웃 타이틀 문구
@@ -232,20 +278,25 @@
         font-size: 18px;
     }
 
-    .download_btn{
-        padding:15px 20px;
+    .download_btn {
+        padding: 15px 20px;
     }
 
-    .download_btn{
-        font-size:12px;
+    .download_btn {
+        font-size: 12px;
+    }
+
+    // 버튼 관련 정의
+    .myintro_box {
+        padding: 10px;
     }
 
 }
 
 
-@include media('<1281px'){
-    .aboutContant_inner{
-        margin-top:7%;
+@include media('<1281px') {
+    .aboutContant_inner {
+        margin-top: 7%;
     }
 
     // 어바웃 타이틀 문구
@@ -254,13 +305,15 @@
         line-height: 1.5;
     }
 
-    .av_1, .av_2{
-        margin-top:1.2rem;
+    .av_1,
+    .av_2 {
+        margin-top: 1.2rem;
     }
 }
 
 
 @include media('<1251px') {
+
     // 어바웃 타이틀 문구
     .about_title {
         font-size: 20px;
@@ -272,7 +325,8 @@
         font-size: 16px;
     }
 
-    .av_1, .av_2 {
+    .av_1,
+    .av_2 {
         margin-top: 1.2rem;
     }
 
@@ -302,6 +356,17 @@
     .av_p {
         font-size: 14px;
     }
+
+    .myintro_box:hover a{
+        background-size: 15%;
+    }
+}
+
+
+@include media('<1025px') {
+    .myintro_box {
+        padding: 5px;
+    }
 }
 
 
@@ -314,13 +379,15 @@
         width: 74%;
     }
 
-    .av_1, .av_2 {
+    .av_1,
+    .av_2 {
         margin-top: 0.5rem;
     }
 }
 
 
 @include media('<901px') {
+
     // 원페이지 앵커 정의
     #fp-nav.fp-right {
         right: 9px;
@@ -330,12 +397,13 @@
         width: 90%;
         flex-direction: column;
         gap: 15px;
-        margin-top:0;
+        margin-top: 0;
         height: calc(100vh - 180px);
     }
 
-    .about_left, .about_right {
-        width:65%;
+    .about_left,
+    .about_right {
+        width: 65%;
     }
 
     .about_title {
@@ -356,40 +424,50 @@
         margin-bottom: 1.5rem;
     }
 
-    .about_left, .about_left.active_about_l {
+    .about_left,
+    .about_left.active_about_l {
         opacity: 1;
         transform: none;
         text-align: center;
     }
 
-    .about_right, .about_right.active_about_r {
+    .about_right,
+    .about_right.active_about_r {
         opacity: 1;
         transform: none;
+    }
+
+    .myintro_box {
+        padding: 10px 20px;
     }
 }
 
 
-@include media('<701px'){
-    .about_left, .about_right{
-        width:90%;
+@include media('<701px') {
+
+    .about_left,
+    .about_right {
+        width: 90%;
     }
 }
 
 
 @include media('<545px') {
-    #fp-nav.fp-right{
-        right:0;
+    #fp-nav.fp-right {
+        right: 0;
     }
 }
 
 
 @include media('<501px') {
+
     // 추가
-    .aboutContant_inner{
-        margin-top:0;
+    .aboutContant_inner {
+        margin-top: 0;
     }
 
-    .about_left, .about_right {
+    .about_left,
+    .about_right {
         width: 95%;
     }
 
@@ -401,18 +479,24 @@
         font-size: 14px;
     }
 
-    .icon, .icon:before, .icon:after {
+    .icon,
+    .icon:before,
+    .icon:after {
         width: 1.5rem;
+    }
+
+    .myintro_box{
+        padding:5px 10px;
     }
 }
 
 
 @include media('<361px') {
-    .aboutContant_inner{
-        height:calc(100vh - 150px);
+    .aboutContant_inner {
+        height: calc(100vh - 150px);
     }
 
-    .about_title{
-        font-size:20px;
+    .about_title {
+        font-size: 20px;
     }
 }

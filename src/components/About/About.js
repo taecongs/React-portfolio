@@ -66,9 +66,32 @@ const About = () => {
                         성실하게 쌓은 지식으로 회사에 실질적인 도움이 되는 <strong className="hv_text" style={{ color: 'rgb(0, 0, 0)' }}>프론트엔드 개발자</strong>로 일하고 싶습니다.
                     </p>
 
-                    
-                    <div className='download_inner'>
+
+                    {/* <div className='download_inner'>
                         <a className='download_btn' href={$pdf} download='프론트엔드 방장원 이력서'>이력서 다운로드</a>
+                    </div> */}
+
+                    <div className='download_inner'>
+                        <div className='slder_link'>
+                            <div className='myintro_box'>
+                                <a href={$pdf} download='프론트엔드 방장원 이력서'>
+                                    <span className='site_text'>이력서 다운로드</span>
+                                </a>
+                            </div>
+
+                            <div className='notion_box'>
+                                <a href='https://abundant-cyclamen-76a.notion.site/Portfolio-01b71b9d5b0e48b9b0ae85d3ce8366b9' target='_blank' rel='noopener noreferrer'>
+                                    <span className='notion_text'>노션 바로가기</span>
+                                </a>
+                            </div>
+
+                            <div className='git_box'>
+                                <a href='https://github.com/taecongs' target='_blank' rel='noopener noreferrer'>
+                                    <span className='git_text'>깃헙 바로가기</span>
+                                </a>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
