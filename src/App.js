@@ -25,11 +25,11 @@ const App = () => {
 
         // 배경 검정색 => dot:#fff | 배경 밝은색 => dot : #000
         let $dot = document.querySelectorAll('#fp-nav ul li a span, .fp-slidesNav ul li a span');
-        let $top = document.querySelector('#top_btn');
+        // let $top = document.querySelector('#top_btn');
 
         if (destination.anchor === 'home') {
             // top 버튼            
-            $top.style.display = 'none';
+            // $top.style.display = 'none';
 
             $header[0].classList.remove('header_bg');
 
@@ -60,7 +60,7 @@ const App = () => {
 
         } else if (destination.anchor === 'about') {
             // top 버튼            
-            $top.style.display = 'block';
+            // $top.style.display = 'block';
 
             $header[0].className = 'header_bg';
 
@@ -90,7 +90,7 @@ const App = () => {
 
         } else if (destination.anchor === 'skill') {
             // top 버튼            
-            $top.style.display = 'block';
+            // $top.style.display = 'block';
 
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
@@ -118,7 +118,7 @@ const App = () => {
 
         } else if (destination.anchor === 'portfolio') {
             // top 버튼
-            $top.style.display = 'block';
+            // $top.style.display = 'block';
 
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
@@ -146,7 +146,7 @@ const App = () => {
 
         } else if (destination.anchor === 'contact') {
             // top 버튼
-            $top.style.display = 'block';
+            // $top.style.display = 'block';
 
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });

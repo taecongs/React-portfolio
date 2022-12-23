@@ -31,7 +31,7 @@ const Sidebar = () => {
                         B {/* <sup>©</sup> */}
                     </h2>
                     <div className="nav_text">
-                        <p>Portfolio</p>
+                        <p>010-8127-9927</p>
                     </div>
                 </nav>
             </div>

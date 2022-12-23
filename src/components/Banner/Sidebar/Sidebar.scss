@@ -56,7 +56,8 @@
 .nav_text {
 	position:absolute;
 	letter-spacing:0.07rem;
-	bottom:5rem;
+	// bottom:5rem;
+	bottom:8rem;
 	left:50%;
 	transform:translateX(-50%) rotate(-90deg);
 	margin-bottom:1.2%;
@@ -64,6 +65,8 @@
 	font-size:1.2rem;
 	font-weight:500;
 	color: #111;
+
+	width:200px;
 }
 
 .nav_text p{
