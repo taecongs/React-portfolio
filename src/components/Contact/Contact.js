@@ -134,7 +134,7 @@ const Contact = () => {
 
                                     <div className='contact_link'>
                                         <div className="notion_box2">
-                                            <a href="https://abundant-cyclamen-76a.notion.site/01b71b9d5b0e48b9b0ae85d3ce8366b9" target="_blank" rel='noopener noreferrer'>
+                                            <a href="https://abundant-cyclamen-76a.notion.site/Portfolio-01b71b9d5b0e48b9b0ae85d3ce8366b9" target="_blank" rel='noopener noreferrer'>
                                                 <span className="notion_text">노션 바로가기</span>
                                             </a>
                                         </div>
