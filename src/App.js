@@ -15,6 +15,7 @@ import Contact from './components/Contact/Contact';
 const SEL = "custom-section";
 const SECTION_SEL = `.${SEL}`;
 
+
 const App = () => {
     const onLeave = (origin, destination, direction) => {
 
@@ -27,7 +28,7 @@ const App = () => {
         let $dot = document.querySelectorAll('#fp-nav ul li a span, .fp-slidesNav ul li a span');
         // let $top = document.querySelector('#top_btn');
 
-        $dot.forEach(($nav_a) => { $nav_a.style.background = "#fff"; });
+
 
         if (destination.anchor === 'home') {
             // top 버튼            

@@ -7,6 +7,7 @@ import BannerContent from './BannerContent/BannerContent';
 import './Banner.scss';
 
 const Banner = () => {
+
     return (
         <div className='banner custom-section'>
             {/* <div id="cover" className="cover_left"></div> */}

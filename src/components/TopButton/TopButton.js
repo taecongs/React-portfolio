@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import './TopButton.scss';
 
-import myIntro from './img/myintro_w.png';
 import github from './img/git_icon_w.png';
 import notion from './img/notion_icon_w.png';
 import plus from './img/plus_w2.png';
-import up_arrow from './img/up_arrow.png';
 
 
 
@@ -42,7 +40,7 @@ const TopButton = () => {
                     </span>
                 </a>
 
-                <img className='plus_top' src={plus} />
+                <img className='plus_top' src={plus} alt='' />
             </div>
         </div>
 
