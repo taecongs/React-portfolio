@@ -79,17 +79,17 @@ const About = () => {
                                 </a>
                             </div>
 
-                            {/* <div className='notion_box'>
+                            <div className='notion_box'>
                                 <a href='https://abundant-cyclamen-76a.notion.site/Portfolio-01b71b9d5b0e48b9b0ae85d3ce8366b9' target='_blank' rel='noopener noreferrer'>
                                     <span className='notion_text'>노션 바로가기</span>
                                 </a>
-                            </div> */}
+                            </div>
 
-                            {/* <div className='git_box'>
+                            <div className='git_box'>
                                 <a href='https://github.com/taecongs' target='_blank' rel='noopener noreferrer'>
                                     <span className='git_text'>깃헙 바로가기</span>
                                 </a>
-                            </div> */}
+                            </div>
 
                         </div>
                     </div>

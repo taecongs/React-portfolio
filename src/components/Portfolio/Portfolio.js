@@ -11,6 +11,9 @@ import $mokup_1 from './img/mockup_01.png';
 import $mokup_2 from './img/mockup_02.png';
 import $mokup_3 from './img/mockup_03.png';
 import $mokup_4 from './img/mockup_04.png';
+import $mokup_5 from './img/mockup_05.png';
+import $mokup_6 from './img/mockup_06.png';
+import $mokup_7 from './img/mockup_07.png';
 
 
 const Portfolio = () => {
@@ -94,7 +97,7 @@ const Portfolio = () => {
                                 <h1 className='slider_title'>내일 뭐하지?</h1>
 
                                 <div className='slider_tec'>
-                                    <p className='tec_1'>HTML</p>
+                                    <p className='tec_1'>HTML5</p>
                                     <p className='tec_2'>JAVAScript</p>
                                     <p className='tec_3'>React</p>
                                     <p className='tec_4'>Node.js</p>
@@ -148,7 +151,7 @@ const Portfolio = () => {
                                 <h1 className='slider_title'>유튜브 클론 코딩</h1>
 
                                 <div className='slider_tec'>
-                                    <p className='tec_1'>HTML</p>
+                                    <p className='tec_1'>HTML5</p>
                                     <p className='tec_2'>JAVAScript</p>
                                     <p className='tec_3'>React</p>
                                     <p className='tec_5'>Sass</p>
@@ -201,8 +204,8 @@ const Portfolio = () => {
                                 <h1 className='slider_title'>개인 채팅 페이지</h1>
 
                                 <div className='slider_tec'>
-                                    <p className='tec_1'>HTML</p>
-                                    <p className='tec_6'>CSS</p>
+                                    <p className='tec_1'>HTML5</p>
+                                    <p className='tec_6'>CSS3</p>
                                     <p className='tec_2'>JAVAScript</p>
                                     <p className='tec_4'>Node.js</p>
                                 </div>
@@ -254,8 +257,8 @@ const Portfolio = () => {
                                 <h1 className='slider_title'>룩포웨더</h1>
 
                                 <div className='slider_tec'>
-                                    <p className='tec_1'>HTML</p>
-                                    <p className='tec_6'>CSS</p>
+                                    <p className='tec_1'>HTML5</p>
+                                    <p className='tec_6'>CSS3</p>
                                     <p className='tec_2'>JAVAScript</p>
                                 </div>
 
@@ -295,6 +298,151 @@ const Portfolio = () => {
                             <div className='slider_right'>
                                 <div className='mokup_box'>
                                     <img className='mokup_img' src={$mokup_4} alt='mokup4' />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className='sider_box'>
+                            <div className='slider_left'>
+                                <p className='slider_sub'>05 - 워드프레스</p>
+
+                                <h1 className='slider_title'>픽셀로</h1>
+
+                                <div className='slider_tec'>
+                                    <p className='tec_0'>비개발</p>
+                                    <p className='tec_0'>웹 퍼블리싱</p>
+                                    <p className='tec_1'>HTML5</p>
+                                    <p className='tec_6'>CSS3</p>
+                                    <p className='tec_2'>JAVAScript</p>
+                                </div>
+
+                                <div className='sider_my'>
+                                    <p className='slider_my_t'>
+                                        WordPress 플랫폼 기반 웹 퍼블리싱 및 유지보수, WordPress 테마, 플러그인 등 관리, 검색엔진 최적화 (SEO)
+                                    </p>
+                                </div>
+
+                                <p className='slider_detail'>
+                                    클라이언트의 의도에 따라 원페이지 형태로 상단에는 주요 제품들을 크고 넓은 UI로 나열하였으며,
+                                    로고 색상인 퍼플 계열들을 메인 컬러로 사용해 심플하고 깔끔한 컨셉으로 작업을 진행하였습니다.
+                                </p>
+
+                                <div className='slder_link'>
+                                    <div className='site_box'>
+                                        <a href='https://pixelro.com/' target='_blank' rel='noopener noreferrer'>
+                                            <span className='site_text'>사이트 바로가기</span>
+                                        </a>
+                                    </div>
+
+                                    <div className='notion_box'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/401a180854144846bf2582a756be0f8c' target='_blank' rel='noopener noreferrer'>
+                                            <span className='notion_text'>노션 바로가기</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div className='slider_right'>
+                                <div className='mokup_box'>
+                                    <img className='mokup_img' src={$mokup_5} alt='mokup5' />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='sider_box'>
+                            <div className='slider_left'>
+                                <p className='slider_sub'>06 - 워드프레스</p>
+
+                                <h1 className='slider_title'>엔피코리아</h1>
+
+                                <div className='slider_tec'>
+                                    <p className='tec_0'>비개발</p>
+                                    <p className='tec_0'>웹 퍼블리싱</p>
+                                    <p className='tec_1'>HTML5</p>
+                                    <p className='tec_6'>CSS3</p>
+                                    <p className='tec_2'>JAVAScript</p>
+                                </div>
+
+                                <div className='sider_my'>
+                                    <p className='slider_my_t'>
+                                        WordPress 플랫폼 기반 웹 퍼블리싱 및 유지보수, WordPress 테마, 플러그인 등 관리, 검색엔진 최적화 (SEO)
+                                    </p>
+                                </div>
+
+                                <p className='slider_detail'>
+                                    클라이언트의 의도에 따라 웹 사용자가 편하게 정보를 찾고 이용할 수 있도록 검색 기능을 배치하여
+                                    제품명을 입력하면 해당 제품 페이지로 이동되게끔 작업을 진행하였습니다.
+                                </p>
+
+                                <div className='slder_link'>
+                                    <div className='site_box'>
+                                        <a href='http://www.npkorea.co.kr/' target='_blank' rel='noopener noreferrer'>
+                                            <span className='site_text'>사이트 바로가기</span>
+                                        </a>
+                                    </div>
+
+                                    <div className='notion_box'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/029462783e0743fdb99a2c46a06027ba' target='_blank' rel='noopener noreferrer'>
+                                            <span className='notion_text'>노션 바로가기</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div className='slider_right'>
+                                <div className='mokup_box'>
+                                    <img className='mokup_img' src={$mokup_6} alt='mokup6' />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='sider_box'>
+                            <div className='slider_left'>
+                                <p className='slider_sub'>07 - 워드프레스</p>
+
+                                <h1 className='slider_title'>더휴앤</h1>
+
+                                <div className='slider_tec'>
+                                    <p className='tec_0'>비개발</p>
+                                    <p className='tec_0'>웹 퍼블리싱</p>
+                                    <p className='tec_1'>HTML5</p>
+                                    <p className='tec_6'>CSS3</p>
+                                    <p className='tec_2'>JAVAScript</p>
+                                </div>
+
+                                <div className='sider_my'>
+                                    <p className='slider_my_t'>
+                                        WordPress 플랫폼 기반 웹 퍼블리싱 및 유지보수, WordPress 테마, 플러그인 등 관리, 검색엔진 최적화 (SEO)
+                                    </p>
+                                </div>
+
+                                <p className='slider_detail'>
+                                    클라이언트의 의도에 따라 기업이 제공하는 서비스의 특·장점을 바탕으로 콘텐츠를 시각화하여 정보 전달의
+                                    편의성을 높였으며 누구나 이해하기 쉽도록 단순하면서 간편한 UI로 사용자의 접근성을 높이도록 작업하였습니다.
+                                </p>
+
+                                <div className='slder_link'>
+                                    <div className='site_box'>
+                                        <a href='http://thehuen.co.kr/' target='_blank' rel='noopener noreferrer'>
+                                            <span className='site_text'>사이트 바로가기</span>
+                                        </a>
+                                    </div>
+
+                                    <div className='notion_box'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/b6971d877226434aa891d6584b0f4508' target='_blank' rel='noopener noreferrer'>
+                                            <span className='notion_text'>노션 바로가기</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div className='slider_right'>
+                                <div className='mokup_box'>
+                                    <img className='mokup_img' src={$mokup_7} alt='mokup7' />
                                 </div>
                             </div>
                         </div>
