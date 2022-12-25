@@ -28,8 +28,6 @@ const App = () => {
         let $dot = document.querySelectorAll('#fp-nav ul li a span, .fp-slidesNav ul li a span');
         // let $top = document.querySelector('#top_btn');
 
-
-
         if (destination.anchor === 'home') {
             // top 버튼            
             // $top.style.display = 'none';
@@ -41,8 +39,8 @@ const App = () => {
             $logo[0].className = 'header_logo';
 
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#fff"; });
-
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#fff"; });
+            // $dot.forEach(($nav_a) => { $nav_a.style.display = "block"; });
             $li[0].className = 'header_on0';
 
 
@@ -74,6 +72,7 @@ const App = () => {
 
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
+            // $dot.forEach(($nav_a) => { $nav_a.style.display = "block"; });
 
             // 텍스트 색상 (2 페이지는 #fff -> #000)
             $li[0].classList.remove('header_on0');
@@ -97,6 +96,7 @@ const App = () => {
 
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
+            // $dot.forEach(($nav_a) => { $nav_a.style.display = "block"; });
 
             // 로고
             $logo[0].classList.remove('header_logo');
@@ -125,6 +125,7 @@ const App = () => {
 
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
+            // $dot.forEach(($nav_a) => { $nav_a.style.display = "block"; });
 
             // 로고
             $logo[0].classList.remove('header_logo');
@@ -153,7 +154,7 @@ const App = () => {
 
             $nav.forEach(($nav_a) => { $nav_a.style.color = "#000"; });
             $dot.forEach(($nav_a) => { $nav_a.style.background = "#000"; });
-            console.log('dsdsdsa23213', $dot);
+            // $dot.forEach(($nav_a) => { $nav_a.style.display = "block"; });
 
             // 로고
             $logo[0].classList.remove('header_logo');
