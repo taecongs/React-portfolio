@@ -44,11 +44,11 @@ const Sidebar = () => {
             <div className='overlay'>
                 <ul className="menu">
                     <li>
-                        <a href='#home'>Home</a><br/>
-                        <a href='#about'>About</a><br/>
-                        <a href='#skill'>Skill</a><br/>
-                        <a href='#portfolio'>Portfolio</a><br/>
-                        <a href='#contact'>Contact</a>
+                        <a href='#home' alt='첫 번째(HOME) 페이지로 이동하기'>Home</a><br/>
+                        <a href='#about' alt='두 번째(ABOUT) 페이지로 이동하기'>About</a><br/>
+                        <a href='#skill' alt='세 번째(SKILL) 페이지로 이동하기'>Skill</a><br/>
+                        <a href='#portfolio' alt='네 번째(PORTFOLIO) 페이지로 이동하기'>Portfolio</a><br/>
+                        <a href='#contact' alt='다섯 번째(CONTACT) 페이지로 이동하기'>Contact</a>
                     </li>
                 </ul>
             </div>
