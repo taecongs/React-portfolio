@@ -133,13 +133,13 @@ const Contact = () => {
 
                                     <div className='contact_link'>
                                         <div className="notion_box2">
-                                            <a href="https://abundant-cyclamen-76a.notion.site/Portfolio-01b71b9d5b0e48b9b0ae85d3ce8366b9" target="_blank" rel='noopener noreferrer' alt='노션 이동하기'>
+                                            <a href="https://abundant-cyclamen-76a.notion.site/Portfolio-01b71b9d5b0e48b9b0ae85d3ce8366b9" target="_blank" rel='noopener noreferrer' alt='노션 이동하기' title='노션 이동하기'>
                                                 <span className="notion_text">노션 바로가기</span>
                                             </a>
                                         </div>
 
                                         <div className="git_box2">
-                                            <a href="https://github.com/taecongs" target="_blank" rel='noopener noreferrer' alt='깃헙 이동하기'>
+                                            <a href="https://github.com/taecongs" target="_blank" rel='noopener noreferrer' alt='깃헙 이동하기' title='깃헙 이동하기'>
                                                 <span className="git_text">깃헙 바로가기</span>
                                             </a>
                                         </div>

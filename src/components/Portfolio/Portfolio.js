@@ -117,19 +117,19 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='http://seryeong.cloud:3000/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기'>
+                                        <a href='http://seryeong.cloud:3000/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기' title='사이트 이동하기'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/a3bb0a772b0a4494b5cfc9db603ac806' target='_blank' rel='noopener noreferrer' alt='노션 이동하기'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/a3bb0a772b0a4494b5cfc9db603ac806' target='_blank' rel='noopener noreferrer' alt='노션 이동하기' title='노션 이동하기'>
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='git_box'>
-                                        <a href='https://github.com/tmr-mohaji/mohaji' target='_blank' rel='noopener noreferrer' alt='깃헙 이동하기'>
+                                        <a href='https://github.com/tmr-mohaji/mohaji' target='_blank' rel='noopener noreferrer' alt='깃헙 이동하기' title='깃헙 이동하기'>
                                             <span className='git_text'>깃헙 바로가기</span>
                                         </a>
                                     </div>
@@ -170,19 +170,19 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='http://27.96.130.163:8081/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기'>
+                                        <a href='http://27.96.130.163:8081/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기' title='사이트 이동하기'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/3a799ac82ebd45fdaa193cce175ad719' target='_blank' rel='noopener noreferrer' alt='노션 이동하기'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/3a799ac82ebd45fdaa193cce175ad719' target='_blank' rel='noopener noreferrer' alt='노션 이동하기' title='노션 이동하기'>
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='git_box'>
-                                        <a href='https://github.com/taecongs/youtube_clone' target='_blank' rel='noopener noreferrer' alt='깃헙 이동하기'>
+                                        <a href='https://github.com/taecongs/youtube_clone' target='_blank' rel='noopener noreferrer' alt='깃헙 이동하기' title='깃헙 이동하기'>
                                             <span className='git_text'>깃헙 바로가기</span>
                                         </a>
                                     </div>
@@ -223,19 +223,19 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='http://27.96.130.163:8080/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기'>
+                                        <a href='http://27.96.130.163:8080/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기' title='사이트 이동하기'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/f531c07b089b4ff091fb07d3d3894a6a' target='_blank' rel='noopener noreferrer' alt='노션 이동하기'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/f531c07b089b4ff091fb07d3d3894a6a' target='_blank' rel='noopener noreferrer' alt='노션 이동하기' title='노션 이동하기'>
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='git_box'>
-                                        <a href='https://github.com/taecongs/personal-project1' target='_blank' rel='noopener noreferrer' alt='깃헙 이동하기'>
+                                        <a href='https://github.com/taecongs/personal-project1' target='_blank' rel='noopener noreferrer' alt='깃헙 이동하기' title='깃헙 이동하기'>
                                             <span className='git_text'>깃헙 바로가기</span>
                                         </a>
                                     </div>
@@ -275,19 +275,19 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='https://hamayj.today:8080/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기'>
+                                        <a href='https://hamayj.today:8080/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기' title='사이트 이동하기'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/Look-For-Weather-ecb8ac4175684f53b231d6fdad634cae' target='_blank' rel='noopener noreferrer' alt='노션 이동하기'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/Look-For-Weather-ecb8ac4175684f53b231d6fdad634cae' target='_blank' rel='noopener noreferrer' alt='노션 이동하기' title='노션 이동하기'> 
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='git_box'>
-                                        <a href='https://github.com/team5-LookForWeather/SeSAC-LFW' target='_blank' rel='noopener noreferrer' alt='깃헙 이동하기'>
+                                        <a href='https://github.com/team5-LookForWeather/SeSAC-LFW' target='_blank' rel='noopener noreferrer' alt='깃헙 이동하기' title='깃헙 이동하기'>
                                             <span className='git_text'>깃헙 바로가기</span>
                                         </a>
                                     </div>
@@ -330,13 +330,14 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='https://pixelro.com/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기'>
+                                        <a href='https://pixelro.com/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기' title='사이트 이동하기'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/401a180854144846bf2582a756be0f8c' target='_blank' rel='noopener noreferrer' alt='노션 이동하기'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/401a180854144846bf2582a756be0f8c' target='_blank' rel='noopener noreferrer' alt='노션 이동하기' title='노션 이동하기'
+>
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
@@ -378,13 +379,13 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='http://www.npkorea.co.kr/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기'>
+                                        <a href='http://www.npkorea.co.kr/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기' title='사이트 이동하기'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/029462783e0743fdb99a2c46a06027ba' target='_blank' rel='noopener noreferrer' alt='노션 이동하기'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/029462783e0743fdb99a2c46a06027ba' target='_blank' rel='noopener noreferrer' alt='노션 이동하기' title='노션 이동하기'>
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
@@ -426,13 +427,13 @@ const Portfolio = () => {
 
                                 <div className='slder_link'>
                                     <div className='site_box'>
-                                        <a href='http://thehuen.co.kr/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기'>
+                                        <a href='http://thehuen.co.kr/' target='_blank' rel='noopener noreferrer' alt='사이트 이동하기' title='사이트 이동하기'>
                                             <span className='site_text'>사이트 바로가기</span>
                                         </a>
                                     </div>
 
                                     <div className='notion_box'>
-                                        <a href='https://abundant-cyclamen-76a.notion.site/b6971d877226434aa891d6584b0f4508' target='_blank' rel='noopener noreferrer' alt='노션 이동하기'>
+                                        <a href='https://abundant-cyclamen-76a.notion.site/b6971d877226434aa891d6584b0f4508' target='_blank' rel='noopener noreferrer' alt='노션 이동하기' title='깃헙 이동하기'>
                                             <span className='notion_text'>노션 바로가기</span>
                                         </a>
                                     </div>
