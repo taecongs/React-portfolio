@@ -4,6 +4,46 @@
 <!-- 💻 &nbsp;주소 : http://taecongs.xyz:9000/ -->
 <hr/>
 
+## 📌폴더구조
+
+```
+📦src
+ ┣ 📂components
+ ┃ ┣ 📂About
+ ┃ ┃ ┣ 📜About.js
+ ┃ ┃ ┗ 📜About.scss
+ ┃ ┣ 📂Banner
+ ┃ ┃ ┣ 📂BannerContent
+ ┃ ┃ ┃ ┣ 📜BannerContent.js
+ ┃ ┃ ┃ ┗ 📜BannerContent.scss
+ ┃ ┃ ┣ 📂Header
+ ┃ ┃ ┃ ┣ 📜Header.js
+ ┃ ┃ ┃ ┗ 📜Header.scss
+ ┃ ┃ ┣ 📂Sidebar
+ ┃ ┃ ┃ ┣ 📜Sidebar.js
+ ┃ ┃ ┃ ┗ 📜Sidebar.scss
+ ┃ ┃ ┣ 📜Banner.js
+ ┃ ┃ ┗ 📜Banner.scss
+ ┃ ┣ 📂Commons
+ ┃ ┃ ┗ 📜Commons.scss
+ ┃ ┣ 📂Contact
+ ┃ ┃ ┣ 📜Contact.js
+ ┃ ┃ ┗ 📜Contact.scss
+ ┃ ┣ 📂Portfolio
+ ┃ ┃ ┣ 📜Portfolio.js
+ ┃ ┃ ┣ 📜Portfolio.scss
+ ┃ ┃ ┗ 📜slick-theme.css
+ ┃ ┣ 📂Skill
+ ┃ ┃ ┣ 📜Skill.js
+ ┃ ┃ ┗ 📜Skill.scss
+ ┃ ┗ 📂TopButton
+ ┃ ┃ ┣ 📜TopButton.js
+ ┃ ┃ ┗ 📜TopButton.scss
+ ┣ 📜App.js
+ ┗ 📜index.js
+```
+
+<!--  
 ### 👋 해상도는 PC버전(1920 X 1080)을 기준으로 최적화되어 있습니다.
 
 ### 2022-11-28 작업
@@ -33,3 +73,4 @@
 
 ### 2023-12-14 
 ✅ 도메인 만료
+-->
