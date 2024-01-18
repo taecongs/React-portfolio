@@ -173,7 +173,7 @@ const Portfolio = () => {
 
                                 <p className='slider_detail'>
                                     Take5 ENT와 가평군이 협업하여 진행 중인 배수펌프 3D 통합 모니터링 프로젝트에 참여하였으며, 이 프로젝트는 보다 효율적인 관리 및 모니터링을 목표로 하고 있습니다.
-                                    <span class="security-notice">※ 보안상의 이유로 깃헙 주소를 공개하지 못하는 점 양해해주시면 감사하겠습니다.</span>
+                                    <span className="security-notice">※ 보안상의 이유로 깃헙 주소를 공개하지 못하는 점 양해해주시면 감사하겠습니다.</span>
                                 </p>
 
                                 <div className='slder_link'>
@@ -208,11 +208,6 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-
-
-
-
-
                         <div className='sider_box'>
                             <div className='slider_left'>
                                 <p className='slider_sub'>03 - Take5 ENT</p>
@@ -235,7 +230,7 @@ const Portfolio = () => {
 
                                 <p className='slider_detail'>
                                         Take5 ENT에서 서비스 중인 프로메테우스 홈페이지를 리뉴얼하여 디지털 트윈 3D 모니터링을 포함 한 LinkedFires 데모 버전 홈페이지를 개발하는 업무를 진행하였습니다.
-                                    <span class="security-notice">※ 보안상의 이유로 깃헙 주소를 공개하지 못하는 점 양해해주시면 감사하겠습니다.</span>
+                                    <span className="security-notice">※ 보안상의 이유로 깃헙 주소를 공개하지 못하는 점 양해해주시면 감사하겠습니다.</span>
                                 </p>
 
                                 <div className='slder_link'>
@@ -265,7 +260,7 @@ const Portfolio = () => {
 
                             <div className='slider_right'>
                                 <div className='mokup_box'>
-                                    <img className='mokup_img' src={$mokup_03} alt='mokup1' />
+                                    <img className='mokup_img' src={$mokup_03} alt='mokup3' />
                                 </div>
                             </div>
                         </div>
@@ -292,7 +287,7 @@ const Portfolio = () => {
 
                                 <p className='slider_detail'>
                                     Take5 ENT에서 기존에 진행했던 Hyundai 프로젝트를 커스터마이징하여, 기술 및 문제 해결 능력의 향상을 목표로 업무를 진행하였습니다.
-                                    <span class="security-notice">※ 보안상의 이유로 깃헙 주소를 공개하지 못하는 점 양해해주시면 감사하겠습니다.</span>
+                                    <span className="security-notice">※ 보안상의 이유로 깃헙 주소를 공개하지 못하는 점 양해해주시면 감사하겠습니다.</span>
                                 </p>
 
                                 <div className='slder_link'>
@@ -323,7 +318,7 @@ const Portfolio = () => {
 
                             <div className='slider_right'>
                                 <div className='mokup_box'>
-                                    <img className='mokup_img' src={$mokup_04} alt='mokup1' />
+                                    <img className='mokup_img' src={$mokup_04} alt='mokup4' />
                                 </div>
                             </div>
                         </div>
@@ -379,7 +374,7 @@ const Portfolio = () => {
 
                             <div className='slider_right'>
                                 <div className='mokup_box'>
-                                    <img className='mokup_img' src={$mokup_05} alt='mokup1' />
+                                    <img className='mokup_img' src={$mokup_05} alt='mokup5' />
                                 </div>
                             </div>
                         </div>
@@ -434,7 +429,7 @@ const Portfolio = () => {
 
                             <div className='slider_right'>
                                 <div className='mokup_box'>
-                                    <img className='mokup_img' src={$mokup_06} alt='mokup1' />
+                                    <img className='mokup_img' src={$mokup_06} alt='mokup6' />
                                 </div>
                             </div>
                         </div>
@@ -487,7 +482,7 @@ const Portfolio = () => {
 
                             <div className='slider_right'>
                                 <div className='mokup_box'>
-                                    <img className='mokup_img' src={$mokup_07} alt='mokup4' />
+                                    <img className='mokup_img' src={$mokup_07} alt='mokup7' />
                                 </div>
                             </div>
                         </div>
@@ -537,7 +532,7 @@ const Portfolio = () => {
 
                             <div className='slider_right'>
                                 <div className='mokup_box'>
-                                    <img className='mokup_img' src={$mokup_08} alt='mokup5' />
+                                    <img className='mokup_img' src={$mokup_08} alt='mokup8' />
                                 </div>
                             </div>
                         </div>
@@ -586,7 +581,7 @@ const Portfolio = () => {
 
                             <div className='slider_right'>
                                 <div className='mokup_box'>
-                                    <img className='mokup_img' src={$mokup_09} alt='mokup5' />
+                                    <img className='mokup_img' src={$mokup_09} alt='mokup9' />
                                 </div>
                             </div>
                         </div>
@@ -636,7 +631,7 @@ const Portfolio = () => {
 
                             <div className='slider_right'>
                                 <div className='mokup_box'>
-                                    <img className='mokup_img' src={$mokup_10} alt='mokup5' />
+                                    <img className='mokup_img' src={$mokup_10} alt='mokup10' />
                                 </div>
                             </div>
                         </div>
@@ -685,7 +680,7 @@ const Portfolio = () => {
 
                             <div className='slider_right'>
                                 <div className='mokup_box'>
-                                    <img className='mokup_img' src={$mokup_11} alt='mokup7' />
+                                    <img className='mokup_img' src={$mokup_11} alt='mokup11' />
                                 </div>
                             </div>
                         </div>
