@@ -73,20 +73,22 @@ const About = () => {
 
                     <div className='download_inner'>
                         <div className='slder_link'>
+                            {/*
                             <div className='myintro_box'>
-                                <a href={$pdf} download='프론트엔드 방장원 이력서' alt='이력서 다운로드' title='이력서 다운로드'>
+                                <a href={$pdf} download='프론트엔드 방장원 이력서' title='이력서 다운로드'>
                                     <span className='site_text'>이력서 다운로드</span>
                                 </a>
                             </div>
+                            */}
 
                             <div className='notion_box'>
-                                <a href='https://abundant-cyclamen-76a.notion.site/36c16de1f1bd4212a9be5040c2c3a655' target='_blank' rel='noopener noreferrer' alt='노션 이동하기' title='노션 이동하기'>
+                                <a href='https://abundant-cyclamen-76a.notion.site/36c16de1f1bd4212a9be5040c2c3a655' target='_blank' rel='noopener noreferrer' title='노션 이동하기'>
                                     <span className='notion_text'>노션 바로가기</span>
                                 </a>
                             </div>
 
                             <div className='git_box'>
-                                <a href='https://github.com/taecongs' target='_blank' rel='noopener noreferrer' alt='깃헙 이동하기' title='깃헙 이동하기'>
+                                <a href='https://github.com/taecongs' target='_blank' rel='noopener noreferrer' title='깃헙 이동하기'>
                                     <span className='git_text'>깃헙 바로가기</span>
                                 </a>
                             </div>
