@@ -1,7 +1,7 @@
 import './About.scss';
 
 import $img1 from './img/ov_img2.gif';
-import $pdf from './pdf/이력서.pdf';
+import $pdf from './pdf/resume.pdf';
 
 
 const About = () => {
@@ -73,13 +73,11 @@ const About = () => {
 
                     <div className='download_inner'>
                         <div className='slder_link'>
-                            {/*
                             <div className='myintro_box'>
                                 <a href={$pdf} download='프론트엔드 방장원 이력서' title='이력서 다운로드'>
                                     <span className='site_text'>이력서 다운로드</span>
                                 </a>
                             </div>
-                            */}
 
                             <div className='notion_box'>
                                 <a href='https://abundant-cyclamen-76a.notion.site/36c16de1f1bd4212a9be5040c2c3a655' target='_blank' rel='noopener noreferrer' title='노션 이동하기'>
