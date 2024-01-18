@@ -376,6 +376,19 @@
 }
 
 
+/*=========================================================
+    보안 문자 정의
+=========================================================*/
+.security-notice{
+    font-size:14px;
+    display: block;
+    color:#e00012;
+    font-family: 'Chosunilbo_myungjo';
+    font-weight: 600;
+    margin-top:5px;
+}
+
+
 
 /*=========================================================
     반응형 기준점 정의
@@ -634,6 +647,10 @@
         font-size: 14px;
     }
 
+    .security-notice{
+        font-size:12px;
+    }
+
     .slick-dots {
         transition: none;
         opacity: 1;
@@ -668,7 +685,8 @@
     }
 
     .slider_left{
-        margin-bottom:10px;
+        margin-bottom:30px;
+        // margin-bottom:10px;
     }
 }
 
